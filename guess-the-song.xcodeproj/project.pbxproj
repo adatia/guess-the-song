@@ -1,0 +1,1363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53085560229EDF1800A711A5 /* songs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5308555F229EDF1800A711A5 /* songs.swift */; };
+		53098F0B22983BD900A876AE /* SingleplayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53098F0A22983BD900A876AE /* SingleplayerViewController.swift */; };
+		5333608C22959481002DFFE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5333608B22959481002DFFE6 /* AppDelegate.swift */; };
+		5333608E22959481002DFFE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5333608D22959481002DFFE6 /* ViewController.swift */; };
+		5333609122959481002DFFE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5333608F22959481002DFFE6 /* Main.storyboard */; };
+		5333609322959482002DFFE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5333609222959482002DFFE6 /* Assets.xcassets */; };
+		533521FC22A01CEF00A8FE28 /* Deja Vu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 533521F622A01CEF00A8FE28 /* Deja Vu.mp3 */; };
+		533521FD22A01CEF00A8FE28 /* Mask Off.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 533521F722A01CEF00A8FE28 /* Mask Off.mp3 */; };
+		533521FE22A01CEF00A8FE28 /* Thotiana.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 533521F822A01CEF00A8FE28 /* Thotiana.mp3 */; };
+		533521FF22A01CEF00A8FE28 /* Fine China.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 533521F922A01CEF00A8FE28 /* Fine China.mp3 */; };
+		5335220022A01CEF00A8FE28 /* beibs in the trap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 533521FA22A01CEF00A8FE28 /* beibs in the trap.mp3 */; };
+		5335220122A01CEF00A8FE28 /* Stir Fry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 533521FB22A01CEF00A8FE28 /* Stir Fry.mp3 */; };
+		533562A022AEAAED007F0FC4 /* Sunflower.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5335629C22AEAAED007F0FC4 /* Sunflower.mp3 */; };
+		533562A122AEAAED007F0FC4 /* Bank Account.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5335629D22AEAAED007F0FC4 /* Bank Account.mp3 */; };
+		533562A222AEAAED007F0FC4 /* Bad and Boujee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5335629E22AEAAED007F0FC4 /* Bad and Boujee.mp3 */; };
+		53394FC322B15216000E2D2A /* Sorry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53394FBD22B15216000E2D2A /* Sorry.mp3 */; };
+		53394FC422B15216000E2D2A /* Love Yourself.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53394FBE22B15216000E2D2A /* Love Yourself.mp3 */; };
+		53394FC522B15216000E2D2A /* Despacito.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53394FBF22B15216000E2D2A /* Despacito.mp3 */; };
+		53394FC622B15216000E2D2A /* No Brainer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53394FC022B15216000E2D2A /* No Brainer.mp3 */; };
+		53394FC722B15216000E2D2A /* I'm The One.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53394FC122B15216000E2D2A /* I'm The One.mp3 */; };
+		53394FC822B15216000E2D2A /* What Do You Mean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53394FC222B15216000E2D2A /* What Do You Mean.mp3 */; };
+		5342EDCB22B1832F0044ADFD /* thank u, next.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDC622B1832F0044ADFD /* thank u, next.mp3 */; };
+		5342EDCC22B1832F0044ADFD /* Into You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDC722B1832F0044ADFD /* Into You.mp3 */; };
+		5342EDCD22B1832F0044ADFD /* Side To Side.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDC822B1832F0044ADFD /* Side To Side.mp3 */; };
+		5342EDCE22B1832F0044ADFD /* Everyday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDC922B1832F0044ADFD /* Everyday.mp3 */; };
+		5342EDCF22B1832F0044ADFD /* Dangerous Woman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDCA22B1832F0044ADFD /* Dangerous Woman.mp3 */; };
+		5342EDD522B183AB0044ADFD /* Starboy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDD022B183AB0044ADFD /* Starboy.mp3 */; };
+		5342EDD622B183AB0044ADFD /* Earned It.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDD122B183AB0044ADFD /* Earned It.mp3 */; };
+		5342EDD722B183AB0044ADFD /* Can't Feel My Face.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDD222B183AB0044ADFD /* Can't Feel My Face.mp3 */; };
+		5342EDD922B183AB0044ADFD /* I Feel It Coming.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDD422B183AB0044ADFD /* I Feel It Coming.mp3 */; };
+		5342EDE022B183C40044ADFD /* Needed Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDDB22B183C40044ADFD /* Needed Me.mp3 */; };
+		5342EDE122B183C40044ADFD /* Wild Thoughts.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDDC22B183C40044ADFD /* Wild Thoughts.mp3 */; };
+		5342EDE222B183C40044ADFD /* Work.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDDD22B183C40044ADFD /* Work.mp3 */; };
+		5342EDE322B183C40044ADFD /* This Is What You Came For.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDDE22B183C40044ADFD /* This Is What You Came For.mp3 */; };
+		5342EE0422B184450044ADFD /* That's What I Like.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDE422B184430044ADFD /* That's What I Like.mp3 */; };
+		5342EE0522B184450044ADFD /* Havana.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDE522B184430044ADFD /* Havana.mp3 */; };
+		5342EE0622B184450044ADFD /* In The Name Of Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDE622B184430044ADFD /* In The Name Of Love.mp3 */; };
+		5342EE0722B184450044ADFD /* Can't Stop The Feeling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDE722B184440044ADFD /* Can't Stop The Feeling.mp3 */; };
+		5342EE0822B184450044ADFD /* Something Just Like This.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDE822B184440044ADFD /* Something Just Like This.mp3 */; };
+		5342EE0922B184450044ADFD /* Treat You Better.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDE922B184440044ADFD /* Treat You Better.mp3 */; };
+		5342EE0A22B184450044ADFD /* Cheap Thrills.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDEA22B184440044ADFD /* Cheap Thrills.mp3 */; };
+		5342EE0B22B184450044ADFD /* We Don't Talk Anymore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDEB22B184440044ADFD /* We Don't Talk Anymore.mp3 */; };
+		5342EE0C22B184450044ADFD /* Paris.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDEC22B184440044ADFD /* Paris.mp3 */; };
+		5342EE0D22B184450044ADFD /* Ride.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDED22B184440044ADFD /* Ride.mp3 */; };
+		5342EE0E22B184450044ADFD /* Flashing Lights.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDEE22B184440044ADFD /* Flashing Lights.mp3 */; };
+		5342EE0F22B184450044ADFD /* Attention.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDEF22B184440044ADFD /* Attention.mp3 */; };
+		5342EE1022B184450044ADFD /* Shake It Off.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDF022B184440044ADFD /* Shake It Off.mp3 */; };
+		5342EE1122B184450044ADFD /* Feel It Still.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDF122B184440044ADFD /* Feel It Still.mp3 */; };
+		5342EE1222B184450044ADFD /* Hands To Myself.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDF222B184440044ADFD /* Hands To Myself.mp3 */; };
+		5342EE1322B184450044ADFD /* I Took A Pill In Ibiza.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDF322B184440044ADFD /* I Took A Pill In Ibiza.mp3 */; };
+		5342EE1422B184450044ADFD /* Wolves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDF422B184440044ADFD /* Wolves.mp3 */; };
+		5342EE1522B184450044ADFD /* There's Nothing Holdin Me Back.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDF522B184440044ADFD /* There's Nothing Holdin Me Back.mp3 */; };
+		5342EE1622B184450044ADFD /* Thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDF622B184440044ADFD /* Thunder.mp3 */; };
+		5342EE1722B184450044ADFD /* Don't Let Me Down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDF722B184440044ADFD /* Don't Let Me Down.mp3 */; };
+		5342EE1822B184450044ADFD /* Young Dumb and Broke.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDF822B184440044ADFD /* Young Dumb and Broke.mp3 */; };
+		5342EE1922B184450044ADFD /* 24k Magic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDF922B184440044ADFD /* 24k Magic.mp3 */; };
+		5342EE1A22B184450044ADFD /* Heathens.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDFA22B184440044ADFD /* Heathens.mp3 */; };
+		5342EE1B22B184450044ADFD /* Closer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDFB22B184440044ADFD /* Closer.mp3 */; };
+		5342EE1C22B184450044ADFD /* All We Know.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDFC22B184440044ADFD /* All We Know.mp3 */; };
+		5342EE1E22B184450044ADFD /* Delicate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDFE22B184450044ADFD /* Delicate.mp3 */; };
+		5342EE1F22B184450044ADFD /* ME!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EDFF22B184450044ADFD /* ME!.mp3 */; };
+		5342EE2022B184450044ADFD /* Believer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EE0022B184450044ADFD /* Believer.mp3 */; };
+		5342EE2122B184450044ADFD /* Same Old Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EE0122B184450044ADFD /* Same Old Love.mp3 */; };
+		5342EE2222B184450044ADFD /* Blank Space.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EE0222B184450044ADFD /* Blank Space.mp3 */; };
+		5342EE2322B184450044ADFD /* Silence.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EE0322B184450044ADFD /* Silence.mp3 */; };
+		5342EE2622B18BDB0044ADFD /* It Ain't Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EE2422B18BDB0044ADFD /* It Ain't Me.mp3 */; };
+		5342EE2722B18BDB0044ADFD /* Shape of You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5342EE2522B18BDB0044ADFD /* Shape of You.mp3 */; };
+		5357525E229DC9FF00A2DDBF /* SongGuessingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357525D229DC9FF00A2DDBF /* SongGuessingViewController.swift */; };
+		5385CF1C22A808A500F7D77B /* CampaignsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5385CF1B22A808A500F7D77B /* CampaignsViewController.swift */; };
+		5385CF2022A813C500F7D77B /* God's Plan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5385CF1F22A813C500F7D77B /* God's Plan.mp3 */; };
+		5391E84D22A5682300F4FDB7 /* MultiplayerInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391E84C22A5682300F4FDB7 /* MultiplayerInformation.swift */; };
+		5391E84F22A56BDD00F4FDB7 /* MultiplayerSongGuessingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391E84E22A56BDD00F4FDB7 /* MultiplayerSongGuessingViewController.swift */; };
+		5391E85122A5741000F4FDB7 /* MultiplayerGenreSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391E85022A5741000F4FDB7 /* MultiplayerGenreSelectionViewController.swift */; };
+		53EB85B922A95B2B00374B4B /* Shayn-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53EB85B622A95B2B00374B4B /* Shayn-01.mp3 */; };
+		53EB85BA22A95B2B00374B4B /* Shayn-02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53EB85B722A95B2B00374B4B /* Shayn-02.mp3 */; };
+		53EB85BB22A95B2B00374B4B /* Shayn-03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53EB85B822A95B2B00374B4B /* Shayn-03.mp3 */; };
+		53EB85C122A9683B00374B4B /* RecordPlayer4.png in Resources */ = {isa = PBXBuildFile; fileRef = 53EB85C022A9683A00374B4B /* RecordPlayer4.png */; };
+		8B0685C722A6D3C900E401BA /* SelectCampaignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0685C622A6D3C900E401BA /* SelectCampaignViewController.swift */; };
+		8B0685C922A6D3E600E401BA /* CampaignsInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0685C822A6D3E600E401BA /* CampaignsInformation.swift */; };
+		8B0AC72722B05090005F374F /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AC72622B05090005F374F /* LeaderboardViewController.swift */; };
+		8B0AC74022B07EEE005F374F /* budmo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC73422B07EED005F374F /* budmo.ttf */; };
+		8B0AC74122B07EEE005F374F /* bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC73522B07EED005F374F /* bold.ttf */; };
+		8B0AC74222B07EEE005F374F /* caviar.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC73622B07EED005F374F /* caviar.ttf */; };
+		8B0AC74322B07EEE005F374F /* noodle.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC73722B07EED005F374F /* noodle.ttf */; };
+		8B0AC74422B07EEE005F374F /* amethyst.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC73822B07EED005F374F /* amethyst.ttf */; };
+		8B0AC74522B07EEE005F374F /* lemon.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC73922B07EED005F374F /* lemon.otf */; };
+		8B0AC74622B07EEE005F374F /* razed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC73A22B07EED005F374F /* razed.ttf */; };
+		8B0AC74722B07EEE005F374F /* retro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC73B22B07EED005F374F /* retro.ttf */; };
+		8B0AC74822B07EEE005F374F /* devil.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC73C22B07EED005F374F /* devil.ttf */; };
+		8B0AC74A22B07EEE005F374F /* neutraface.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC73E22B07EEE005F374F /* neutraface.otf */; };
+		8B0AC74B22B07EEE005F374F /* pricedown.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC73F22B07EEE005F374F /* pricedown.ttf */; };
+		8B0AC74D22B0816B005F374F /* ace.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC74C22B0816B005F374F /* ace.otf */; };
+		8B0AC75122B08A97005F374F /* bebas.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC75022B08A97005F374F /* bebas.ttf */; };
+		8B0AC75422B091C7005F374F /* Jumpman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC75222B091C7005F374F /* Jumpman.mp3 */; };
+		8B0AC75522B091C7005F374F /* Look Alive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC75322B091C7005F374F /* Look Alive.mp3 */; };
+		8B0AC75B22B09205005F374F /* Still Dre.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC75622B09205005F374F /* Still Dre.mp3 */; };
+		8B0AC75C22B09205005F374F /* Rockstar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC75722B09205005F374F /* Rockstar.mp3 */; };
+		8B0AC75D22B09205005F374F /* ZEZE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC75822B09205005F374F /* ZEZE.mp3 */; };
+		8B0AC75E22B09205005F374F /* Forgot About Dre.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC75922B09205005F374F /* Forgot About Dre.mp3 */; };
+		8B0AC75F22B09205005F374F /* Old Town Road.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC75A22B09205005F374F /* Old Town Road.mp3 */; };
+		8B0AC76222B09359005F374F /* Faith.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC76022B09359005F374F /* Faith.mp3 */; };
+		8B0AC76322B09359005F374F /* Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC76122B09359005F374F /* Up.mp3 */; };
+		8B0AC76522B09365005F374F /* Loyalty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC76422B09365005F374F /* Loyalty.mp3 */; };
+		8B0AC76822B09841005F374F /* Champion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC76622B09841005F374F /* Champion.mp3 */; };
+		8B0AC76922B09841005F374F /* Some Way.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC76722B09841005F374F /* Some Way.mp3 */; };
+		8B0AC76D22B09881005F374F /* Without Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC76A22B09880005F374F /* Without Me.mp3 */; };
+		8B0AC76E22B09881005F374F /* You Know How We Do It.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC76B22B09880005F374F /* You Know How We Do It.mp3 */; };
+		8B0AC76F22B09881005F374F /* Xo Tour Llif3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC76C22B09881005F374F /* Xo Tour Llif3.mp3 */; };
+		8B0AC77322B098FE005F374F /* Throw Sum Mo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC77022B098FD005F374F /* Throw Sum Mo.mp3 */; };
+		8B0AC77422B098FE005F374F /* Wet Dreamz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC77122B098FE005F374F /* Wet Dreamz.mp3 */; };
+		8B0AC77522B098FE005F374F /* The Real Slim Shady.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC77222B098FE005F374F /* The Real Slim Shady.mp3 */; };
+		8B0AC77922B09975005F374F /* Unforgettable.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC77622B09975005F374F /* Unforgettable.mp3 */; };
+		8B0AC77A22B09975005F374F /* SAD.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC77722B09975005F374F /* SAD.mp3 */; };
+		8B0AC77B22B09975005F374F /* Slippery.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC77822B09975005F374F /* Slippery.mp3 */; };
+		8B0AC77F22B099D3005F374F /* No Type.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC77C22B099D2005F374F /* No Type.mp3 */; };
+		8B0AC78022B099D3005F374F /* If I Can't.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC77D22B099D2005F374F /* If I Can't.mp3 */; };
+		8B0AC78122B099D3005F374F /* No Role Modelz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC77E22B099D3005F374F /* No Role Modelz.mp3 */; };
+		8B0AC78622B09A19005F374F /* Come and See Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC78222B09A19005F374F /* Come and See Me.mp3 */; };
+		8B0AC78722B09A19005F374F /* Exchange.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC78322B09A19005F374F /* Exchange.mp3 */; };
+		8B0AC78822B09A19005F374F /* 21 Questions.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC78422B09A19005F374F /* 21 Questions.mp3 */; };
+		8B0AC78922B09A19005F374F /* Black Beatles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC78522B09A19005F374F /* Black Beatles.mp3 */; };
+		8B0AC78D22B09C3E005F374F /* Motorsport.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC78A22B09C3D005F374F /* Motorsport.mp3 */; };
+		8B0AC78E22B09C3E005F374F /* Walk It Talk It.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC78B22B09C3E005F374F /* Walk It Talk It.mp3 */; };
+		8B0AC78F22B09C3E005F374F /* CC.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC78C22B09C3E005F374F /* CC.mp3 */; };
+		8B0AC79122B09C73005F374F /* In My Feelings.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC79022B09C73005F374F /* In My Feelings.mp3 */; };
+		8B0AC79522B09C99005F374F /* Codeine Dreaming.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC79222B09C99005F374F /* Codeine Dreaming.mp3 */; };
+		8B0AC79622B09C99005F374F /* No Favors.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC79322B09C99005F374F /* No Favors.mp3 */; };
+		8B0AC79722B09C99005F374F /* King's Dead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC79422B09C99005F374F /* King's Dead.mp3 */; };
+		8B0AC7CA22B1D5B4005F374F /* Don't Stop Til You Get Enough.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7A222B1D5B1005F374F /* Don't Stop Til You Get Enough.mp3 */; };
+		8B0AC7CB22B1D5B4005F374F /* Brandy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7A322B1D5B1005F374F /* Brandy.mp3 */; };
+		8B0AC7CC22B1D5B4005F374F /* Happy Together.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7A422B1D5B1005F374F /* Happy Together.mp3 */; };
+		8B0AC7CD22B1D5B4005F374F /* Cherry Bomb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7A522B1D5B1005F374F /* Cherry Bomb.mp3 */; };
+		8B0AC7CE22B1D5B4005F374F /* I'm Not In Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7A622B1D5B1005F374F /* I'm Not In Love.mp3 */; };
+		8B0AC7CF22B1D5B4005F374F /* The Joker.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7A722B1D5B1005F374F /* The Joker.mp3 */; };
+		8B0AC7D022B1D5B4005F374F /* Roxanne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7A822B1D5B1005F374F /* Roxanne.mp3 */; };
+		8B0AC7D122B1D5B4005F374F /* Play That Funky Music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7A922B1D5B1005F374F /* Play That Funky Music.mp3 */; };
+		8B0AC7D222B1D5B4005F374F /* Rubber Band.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7AA22B1D5B1005F374F /* Rubber Band.mp3 */; };
+		8B0AC7D322B1D5B4005F374F /* I Want You Back.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7AB22B1D5B1005F374F /* I Want You Back.mp3 */; };
+		8B0AC7D422B1D5B4005F374F /* Baby Come Back.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7AC22B1D5B1005F374F /* Baby Come Back.mp3 */; };
+		8B0AC7D522B1D5B4005F374F /* Come and Get Your Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7AD22B1D5B1005F374F /* Come and Get Your Love.mp3 */; };
+		8B0AC7D622B1D5B4005F374F /* Paint It Black.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7AE22B1D5B2005F374F /* Paint It Black.mp3 */; };
+		8B0AC7D722B1D5B4005F374F /* Highway To Hell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7AF22B1D5B2005F374F /* Highway To Hell.mp3 */; };
+		8B0AC7D822B1D5B4005F374F /* Hollywood Nights.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7B022B1D5B2005F374F /* Hollywood Nights.mp3 */; };
+		8B0AC7D922B1D5B4005F374F /* Hooked On A Feeling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7B122B1D5B2005F374F /* Hooked On A Feeling.mp3 */; };
+		8B0AC7DA22B1D5B4005F374F /* Go All The Way.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7B222B1D5B2005F374F /* Go All The Way.mp3 */; };
+		8B0AC7DB22B1D5B4005F374F /* Bohemian Rhapsody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7B322B1D5B2005F374F /* Bohemian Rhapsody.mp3 */; };
+		8B0AC7DC22B1D5B4005F374F /* Escape.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7B422B1D5B2005F374F /* Escape.mp3 */; };
+		8B0AC7DD22B1D5B4005F374F /* Free Ride.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7B522B1D5B2005F374F /* Free Ride.mp3 */; };
+		8B0AC7DE22B1D5B4005F374F /* Fooled Around And Fell In Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7B622B1D5B2005F374F /* Fooled Around And Fell In Love.mp3 */; };
+		8B0AC7DF22B1D5B4005F374F /* Another One Bites The Dust.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7B722B1D5B2005F374F /* Another One Bites The Dust.mp3 */; };
+		8B0AC7E022B1D5B4005F374F /* Higher Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7B822B1D5B2005F374F /* Higher Love.mp3 */; };
+		8B0AC7E122B1D5B4005F374F /* Rock With You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7B922B1D5B2005F374F /* Rock With You.mp3 */; };
+		8B0AC7E222B1D5B4005F374F /* Livin' Thing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7BA22B1D5B3005F374F /* Livin' Thing.mp3 */; };
+		8B0AC7E322B1D5B4005F374F /* Rich Girl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7BB22B1D5B3005F374F /* Rich Girl.mp3 */; };
+		8B0AC7E422B1D5B4005F374F /* O-O-H Child.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7BC22B1D5B3005F374F /* O-O-H Child.mp3 */; };
+		8B0AC7E522B1D5B4005F374F /* All Along The Watchtower.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7BD22B1D5B3005F374F /* All Along The Watchtower.mp3 */; };
+		8B0AC7E622B1D5B4005F374F /* One More Time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7BE22B1D5B3005F374F /* One More Time.mp3 */; };
+		8B0AC7E722B1D5B4005F374F /* Sara Smile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7BF22B1D5B3005F374F /* Sara Smile.mp3 */; };
+		8B0AC7E822B1D5B4005F374F /* Spirit In The Sky.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7C022B1D5B3005F374F /* Spirit In The Sky.mp3 */; };
+		8B0AC7E922B1D5B4005F374F /* Surrender.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7C122B1D5B3005F374F /* Surrender.mp3 */; };
+		8B0AC7EA22B1D5B4005F374F /* September.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7C222B1D5B3005F374F /* September.mp3 */; };
+		8B0AC7EB22B1D5B4005F374F /* Southern Nights.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7C322B1D5B3005F374F /* Southern Nights.mp3 */; };
+		8B0AC7EC22B1D5B4005F374F /* Return Of The Mack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7C422B1D5B4005F374F /* Return Of The Mack.mp3 */; };
+		8B0AC7ED22B1D5B4005F374F /* Fly Like An Eagle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7C522B1D5B4005F374F /* Fly Like An Eagle.mp3 */; };
+		8B0AC7EE22B1D5B4005F374F /* Mr. Blue Sky.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7C622B1D5B4005F374F /* Mr. Blue Sky.mp3 */; };
+		8B0AC7EF22B1D5B4005F374F /* Immigrant Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7C722B1D5B4005F374F /* Immigrant Song.mp3 */; };
+		8B0AC7F022B1D5B4005F374F /* Don't Stop Me Now.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7C822B1D5B4005F374F /* Don't Stop Me Now.mp3 */; };
+		8B0AC7F122B1D5B4005F374F /* Wouldn't It Be Nice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7C922B1D5B4005F374F /* Wouldn't It Be Nice.mp3 */; };
+		8B0AC82622B2848C005F374F /* Where Are U Now.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7F322B28488005F374F /* Where Are U Now.mp3 */; };
+		8B0AC82722B2848C005F374F /* 7 Rings.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7F422B28488005F374F /* 7 Rings.mp3 */; };
+		8B0AC82822B2848C005F374F /* Mariah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7F522B28488005F374F /* Mariah.mp3 */; };
+		8B0AC82922B2848C005F374F /* Wicked.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7F622B28488005F374F /* Wicked.mp3 */; };
+		8B0AC82A22B2848C005F374F /* S&M.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7F722B28488005F374F /* S&M.mp3 */; };
+		8B0AC82B22B2848C005F374F /* Through The Late Night.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7F822B28488005F374F /* Through The Late Night.mp3 */; };
+		8B0AC82C22B2848C005F374F /* Beauty And A Beat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7F922B28488005F374F /* Beauty And A Beat.mp3 */; };
+		8B0AC82D22B2848C005F374F /* The Hills.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7FA22B28489005F374F /* The Hills.mp3 */; };
+		8B0AC82E22B2848C005F374F /* Wanted You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7FB22B28489005F374F /* Wanted You.mp3 */; };
+		8B0AC82F22B2848C005F374F /* Yosemite.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7FC22B28489005F374F /* Yosemite.mp3 */; };
+		8B0AC83022B2848C005F374F /* Too Good.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7FD22B28489005F374F /* Too Good.mp3 */; };
+		8B0AC83122B2848C005F374F /* Started From The Bottom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7FE22B28489005F374F /* Started From The Bottom.mp3 */; };
+		8B0AC83222B2848C005F374F /* Pray For Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC7FF22B28489005F374F /* Pray For Me.mp3 */; };
+		8B0AC83322B2848C005F374F /* Love On The Brain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC80022B28489005F374F /* Love On The Brain.mp3 */; };
+		8B0AC83422B2848C005F374F /* Butterfly Effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC80122B28489005F374F /* Butterfly Effect.mp3 */; };
+		8B0AC83522B2848C005F374F /* Antidote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC80222B28489005F374F /* Antidote.mp3 */; };
+		8B0AC83622B2848C005F374F /* Get Right Witcha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC80322B28489005F374F /* Get Right Witcha.mp3 */; };
+		8B0AC83722B2848C005F374F /* Goosebumps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC80422B28489005F374F /* Goosebumps.mp3 */; };
+		8B0AC83822B2848C005F374F /* Sicko Mode.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC80522B28489005F374F /* Sicko Mode.mp3 */; };
+		8B0AC83922B2848C005F374F /* When I Think About It.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC80622B28489005F374F /* When I Think About It.mp3 */; };
+		8B0AC83A22B2848C005F374F /* Diamonds Dancing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC80722B28489005F374F /* Diamonds Dancing.mp3 */; };
+		8B0AC83B22B2848C005F374F /* Gyalchester.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC80822B2848A005F374F /* Gyalchester.mp3 */; };
+		8B0AC83C22B2848C005F374F /* One Dance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC80922B2848A005F374F /* One Dance.mp3 */; };
+		8B0AC83D22B2848C005F374F /* No Flex Zone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC80A22B2848A005F374F /* No Flex Zone.mp3 */; };
+		8B0AC83E22B2848C005F374F /* One Last Time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC80B22B2848A005F374F /* One Last Time.mp3 */; };
+		8B0AC83F22B2848C005F374F /* No Tears Left To Cry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC80C22B2848A005F374F /* No Tears Left To Cry.mp3 */; };
+		8B0AC84022B2848C005F374F /* Where Ya At.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC80D22B2848A005F374F /* Where Ya At.mp3 */; };
+		8B0AC84122B2848C005F374F /* This Could Be Us.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC80E22B2848A005F374F /* This Could Be Us.mp3 */; };
+		8B0AC84222B2848C005F374F /* T-Shirt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC80F22B2848A005F374F /* T-Shirt.mp3 */; };
+		8B0AC84322B2848C005F374F /* Swang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC81022B2848A005F374F /* Swang.mp3 */; };
+		8B0AC84422B2848C005F374F /* Boyfriend.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC81122B2848A005F374F /* Boyfriend.mp3 */; };
+		8B0AC84522B2848C005F374F /* Price On My Head.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC81222B2848A005F374F /* Price On My Head.mp3 */; };
+		8B0AC84622B2848C005F374F /* Portland.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC81322B2848A005F374F /* Portland.mp3 */; };
+		8B0AC84722B2848C005F374F /* Only Girl In The World.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC81422B2848B005F374F /* Only Girl In The World.mp3 */; };
+		8B0AC84822B2848C005F374F /* Narcos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC81522B2848B005F374F /* Narcos.mp3 */; };
+		8B0AC84922B2848C005F374F /* Break Free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC81622B2848B005F374F /* Break Free.mp3 */; };
+		8B0AC84A22B2848C005F374F /* Gang Gang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC81722B2848B005F374F /* Gang Gang.mp3 */; };
+		8B0AC84B22B2848C005F374F /* Break Up With Your Girlfriend I'm Bored.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC81822B2848B005F374F /* Break Up With Your Girlfriend I'm Bored.mp3 */; };
+		8B0AC84C22B2848C005F374F /* Come Get Her.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC81922B2848B005F374F /* Come Get Her.mp3 */; };
+		8B0AC84D22B2848C005F374F /* Call Out My Name.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC81A22B2848B005F374F /* Call Out My Name.mp3 */; };
+		8B0AC84E22B2848C005F374F /* Used To This.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC81B22B2848B005F374F /* Used To This.mp3 */; };
+		8B0AC84F22B2848C005F374F /* We Found Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC81C22B2848B005F374F /* We Found Love.mp3 */; };
+		8B0AC85022B2848C005F374F /* Myself.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC81D22B2848B005F374F /* Myself.mp3 */; };
+		8B0AC85122B2848C005F374F /* Freshman List.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC81E22B2848B005F374F /* Freshman List.mp3 */; };
+		8B0AC85222B2848C005F374F /* Low Life.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC81F22B2848C005F374F /* Low Life.mp3 */; };
+		8B0AC85322B2848C005F374F /* As Long As You Love Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC82022B2848C005F374F /* As Long As You Love Me.mp3 */; };
+		8B0AC85422B2848C005F374F /* Guatemala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC82122B2848C005F374F /* Guatemala.mp3 */; };
+		8B0AC85522B2848C005F374F /* Some More.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC82222B2848C005F374F /* Some More.mp3 */; };
+		8B0AC85622B2848C005F374F /* Pick Up The Phone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC82322B2848C005F374F /* Pick Up The Phone.mp3 */; };
+		8B0AC85722B2848C005F374F /* Stargazing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC82422B2848C005F374F /* Stargazing.mp3 */; };
+		8B0AC85822B2848C005F374F /* Love The Way You Lie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AC82522B2848C005F374F /* Love The Way You Lie.mp3 */; };
+		8B46963F22A35F1E007BE1A9 /* MultiplayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B46963E22A35F1E007BE1A9 /* MultiplayerViewController.swift */; };
+		8B46964122A3648E007BE1A9 /* GenreSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B46964022A3648E007BE1A9 /* GenreSelectionViewController.swift */; };
+		8BC529A422A89A4E0064004C /* EasterEggViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC529A322A89A4E0064004C /* EasterEggViewController.swift */; };
+		8BC529AB22A8A7320064004C /* Controlla.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8BC529A922A8A7320064004C /* Controlla.mp3 */; };
+		8BC529AC22A8A7320064004C /* Hotline Bling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8BC529AA22A8A7320064004C /* Hotline Bling.mp3 */; };
+		8BD837AA22A0B19D002AEA6C /* SingleplayerInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD837A922A0B19D002AEA6C /* SingleplayerInformation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5308555F229EDF1800A711A5 /* songs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = songs.swift; sourceTree = "<group>"; };
+		53098F0A22983BD900A876AE /* SingleplayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleplayerViewController.swift; sourceTree = "<group>"; };
+		5333608822959481002DFFE6 /* guess-the-song.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "guess-the-song.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5333608B22959481002DFFE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5333608D22959481002DFFE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5333609022959481002DFFE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5333609222959482002DFFE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5333609522959482002DFFE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5333609722959482002DFFE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533521F622A01CEF00A8FE28 /* Deja Vu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Deja Vu.mp3"; sourceTree = "<group>"; };
+		533521F722A01CEF00A8FE28 /* Mask Off.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mask Off.mp3"; sourceTree = "<group>"; };
+		533521F822A01CEF00A8FE28 /* Thotiana.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Thotiana.mp3; sourceTree = "<group>"; };
+		533521F922A01CEF00A8FE28 /* Fine China.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fine China.mp3"; sourceTree = "<group>"; };
+		533521FA22A01CEF00A8FE28 /* beibs in the trap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beibs in the trap.mp3"; sourceTree = "<group>"; };
+		533521FB22A01CEF00A8FE28 /* Stir Fry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Stir Fry.mp3"; sourceTree = "<group>"; };
+		5335629C22AEAAED007F0FC4 /* Sunflower.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sunflower.mp3; sourceTree = "<group>"; };
+		5335629D22AEAAED007F0FC4 /* Bank Account.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bank Account.mp3"; sourceTree = "<group>"; };
+		5335629E22AEAAED007F0FC4 /* Bad and Boujee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bad and Boujee.mp3"; sourceTree = "<group>"; };
+		53394FBD22B15216000E2D2A /* Sorry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sorry.mp3; sourceTree = "<group>"; };
+		53394FBE22B15216000E2D2A /* Love Yourself.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Love Yourself.mp3"; sourceTree = "<group>"; };
+		53394FBF22B15216000E2D2A /* Despacito.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Despacito.mp3; sourceTree = "<group>"; };
+		53394FC022B15216000E2D2A /* No Brainer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "No Brainer.mp3"; sourceTree = "<group>"; };
+		53394FC122B15216000E2D2A /* I'm The One.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I'm The One.mp3"; sourceTree = "<group>"; };
+		53394FC222B15216000E2D2A /* What Do You Mean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "What Do You Mean.mp3"; sourceTree = "<group>"; };
+		5342EDC622B1832F0044ADFD /* thank u, next.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "thank u, next.mp3"; sourceTree = "<group>"; };
+		5342EDC722B1832F0044ADFD /* Into You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Into You.mp3"; sourceTree = "<group>"; };
+		5342EDC822B1832F0044ADFD /* Side To Side.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Side To Side.mp3"; sourceTree = "<group>"; };
+		5342EDC922B1832F0044ADFD /* Everyday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Everyday.mp3; sourceTree = "<group>"; };
+		5342EDCA22B1832F0044ADFD /* Dangerous Woman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dangerous Woman.mp3"; sourceTree = "<group>"; };
+		5342EDD022B183AB0044ADFD /* Starboy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Starboy.mp3; sourceTree = "<group>"; };
+		5342EDD122B183AB0044ADFD /* Earned It.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Earned It.mp3"; sourceTree = "<group>"; };
+		5342EDD222B183AB0044ADFD /* Can't Feel My Face.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Can't Feel My Face.mp3"; sourceTree = "<group>"; };
+		5342EDD322B183AB0044ADFD /* Some Way.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Some Way.mp3"; path = "Adatia_Shayn_ISP/All Music/Rap/NAV/Some Way.mp3"; sourceTree = SOURCE_ROOT; };
+		5342EDD422B183AB0044ADFD /* I Feel It Coming.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I Feel It Coming.mp3"; sourceTree = "<group>"; };
+		5342EDDA22B183C40044ADFD /* Loyalty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Loyalty.mp3; path = "Adatia_Shayn_ISP/All Music/Rap/Kendrick Lamar/Loyalty.mp3"; sourceTree = SOURCE_ROOT; };
+		5342EDDB22B183C40044ADFD /* Needed Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Needed Me.mp3"; sourceTree = "<group>"; };
+		5342EDDC22B183C40044ADFD /* Wild Thoughts.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wild Thoughts.mp3"; sourceTree = "<group>"; };
+		5342EDDD22B183C40044ADFD /* Work.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Work.mp3; sourceTree = "<group>"; };
+		5342EDDE22B183C40044ADFD /* This Is What You Came For.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "This Is What You Came For.mp3"; sourceTree = "<group>"; };
+		5342EDE422B184430044ADFD /* That's What I Like.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "That's What I Like.mp3"; sourceTree = "<group>"; };
+		5342EDE522B184430044ADFD /* Havana.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Havana.mp3; sourceTree = "<group>"; };
+		5342EDE622B184430044ADFD /* In The Name Of Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "In The Name Of Love.mp3"; sourceTree = "<group>"; };
+		5342EDE722B184440044ADFD /* Can't Stop The Feeling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Can't Stop The Feeling.mp3"; sourceTree = "<group>"; };
+		5342EDE822B184440044ADFD /* Something Just Like This.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Something Just Like This.mp3"; sourceTree = "<group>"; };
+		5342EDE922B184440044ADFD /* Treat You Better.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Treat You Better.mp3"; sourceTree = "<group>"; };
+		5342EDEA22B184440044ADFD /* Cheap Thrills.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cheap Thrills.mp3"; sourceTree = "<group>"; };
+		5342EDEB22B184440044ADFD /* We Don't Talk Anymore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "We Don't Talk Anymore.mp3"; sourceTree = "<group>"; };
+		5342EDEC22B184440044ADFD /* Paris.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Paris.mp3; sourceTree = "<group>"; };
+		5342EDED22B184440044ADFD /* Ride.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ride.mp3; sourceTree = "<group>"; };
+		5342EDEE22B184440044ADFD /* Flashing Lights.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Flashing Lights.mp3"; sourceTree = "<group>"; };
+		5342EDEF22B184440044ADFD /* Attention.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Attention.mp3; sourceTree = "<group>"; };
+		5342EDF022B184440044ADFD /* Shake It Off.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shake It Off.mp3"; sourceTree = "<group>"; };
+		5342EDF122B184440044ADFD /* Feel It Still.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Feel It Still.mp3"; sourceTree = "<group>"; };
+		5342EDF222B184440044ADFD /* Hands To Myself.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hands To Myself.mp3"; sourceTree = "<group>"; };
+		5342EDF322B184440044ADFD /* I Took A Pill In Ibiza.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I Took A Pill In Ibiza.mp3"; sourceTree = "<group>"; };
+		5342EDF422B184440044ADFD /* Wolves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wolves.mp3; sourceTree = "<group>"; };
+		5342EDF522B184440044ADFD /* There's Nothing Holdin Me Back.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "There's Nothing Holdin Me Back.mp3"; sourceTree = "<group>"; };
+		5342EDF622B184440044ADFD /* Thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Thunder.mp3; sourceTree = "<group>"; };
+		5342EDF722B184440044ADFD /* Don't Let Me Down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Don't Let Me Down.mp3"; sourceTree = "<group>"; };
+		5342EDF822B184440044ADFD /* Young Dumb and Broke.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Young Dumb and Broke.mp3"; sourceTree = "<group>"; };
+		5342EDF922B184440044ADFD /* 24k Magic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "24k Magic.mp3"; sourceTree = "<group>"; };
+		5342EDFA22B184440044ADFD /* Heathens.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Heathens.mp3; sourceTree = "<group>"; };
+		5342EDFB22B184440044ADFD /* Closer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Closer.mp3; sourceTree = "<group>"; };
+		5342EDFC22B184440044ADFD /* All We Know.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "All We Know.mp3"; sourceTree = "<group>"; };
+		5342EDFE22B184450044ADFD /* Delicate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Delicate.mp3; sourceTree = "<group>"; };
+		5342EDFF22B184450044ADFD /* ME!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ME!.mp3"; sourceTree = "<group>"; };
+		5342EE0022B184450044ADFD /* Believer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Believer.mp3; sourceTree = "<group>"; };
+		5342EE0122B184450044ADFD /* Same Old Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Same Old Love.mp3"; sourceTree = "<group>"; };
+		5342EE0222B184450044ADFD /* Blank Space.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Blank Space.mp3"; sourceTree = "<group>"; };
+		5342EE0322B184450044ADFD /* Silence.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Silence.mp3; sourceTree = "<group>"; };
+		5342EE2422B18BDB0044ADFD /* It Ain't Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "It Ain't Me.mp3"; sourceTree = "<group>"; };
+		5342EE2522B18BDB0044ADFD /* Shape of You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shape of You.mp3"; sourceTree = "<group>"; };
+		5357525D229DC9FF00A2DDBF /* SongGuessingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongGuessingViewController.swift; sourceTree = "<group>"; };
+		5385CF1B22A808A500F7D77B /* CampaignsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignsViewController.swift; sourceTree = "<group>"; };
+		5385CF1F22A813C500F7D77B /* God's Plan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "God's Plan.mp3"; sourceTree = "<group>"; };
+		5391E84C22A5682300F4FDB7 /* MultiplayerInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerInformation.swift; sourceTree = "<group>"; };
+		5391E84E22A56BDD00F4FDB7 /* MultiplayerSongGuessingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerSongGuessingViewController.swift; sourceTree = "<group>"; };
+		5391E85022A5741000F4FDB7 /* MultiplayerGenreSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerGenreSelectionViewController.swift; sourceTree = "<group>"; };
+		53EB85B622A95B2B00374B4B /* Shayn-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shayn-01.mp3"; sourceTree = "<group>"; };
+		53EB85B722A95B2B00374B4B /* Shayn-02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shayn-02.mp3"; sourceTree = "<group>"; };
+		53EB85B822A95B2B00374B4B /* Shayn-03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shayn-03.mp3"; sourceTree = "<group>"; };
+		53EB85C022A9683A00374B4B /* RecordPlayer4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecordPlayer4.png; sourceTree = "<group>"; };
+		8B0685C622A6D3C900E401BA /* SelectCampaignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCampaignViewController.swift; sourceTree = "<group>"; };
+		8B0685C822A6D3E600E401BA /* CampaignsInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignsInformation.swift; sourceTree = "<group>"; };
+		8B0AC72622B05090005F374F /* LeaderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
+		8B0AC73422B07EED005F374F /* budmo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = budmo.ttf; sourceTree = "<group>"; };
+		8B0AC73522B07EED005F374F /* bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bold.ttf; sourceTree = "<group>"; };
+		8B0AC73622B07EED005F374F /* caviar.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = caviar.ttf; sourceTree = "<group>"; };
+		8B0AC73722B07EED005F374F /* noodle.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = noodle.ttf; sourceTree = "<group>"; };
+		8B0AC73822B07EED005F374F /* amethyst.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = amethyst.ttf; sourceTree = "<group>"; };
+		8B0AC73922B07EED005F374F /* lemon.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = lemon.otf; sourceTree = "<group>"; };
+		8B0AC73A22B07EED005F374F /* razed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = razed.ttf; sourceTree = "<group>"; };
+		8B0AC73B22B07EED005F374F /* retro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = retro.ttf; sourceTree = "<group>"; };
+		8B0AC73C22B07EED005F374F /* devil.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = devil.ttf; sourceTree = "<group>"; };
+		8B0AC73E22B07EEE005F374F /* neutraface.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = neutraface.otf; sourceTree = "<group>"; };
+		8B0AC73F22B07EEE005F374F /* pricedown.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pricedown.ttf; sourceTree = "<group>"; };
+		8B0AC74C22B0816B005F374F /* ace.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ace.otf; sourceTree = "<group>"; };
+		8B0AC75022B08A97005F374F /* bebas.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bebas.ttf; sourceTree = "<group>"; };
+		8B0AC75222B091C7005F374F /* Jumpman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Jumpman.mp3; sourceTree = "<group>"; };
+		8B0AC75322B091C7005F374F /* Look Alive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Look Alive.mp3"; sourceTree = "<group>"; };
+		8B0AC75622B09205005F374F /* Still Dre.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Still Dre.mp3"; sourceTree = "<group>"; };
+		8B0AC75722B09205005F374F /* Rockstar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rockstar.mp3; sourceTree = "<group>"; };
+		8B0AC75822B09205005F374F /* ZEZE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ZEZE.mp3; sourceTree = "<group>"; };
+		8B0AC75922B09205005F374F /* Forgot About Dre.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Forgot About Dre.mp3"; sourceTree = "<group>"; };
+		8B0AC75A22B09205005F374F /* Old Town Road.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Old Town Road.mp3"; sourceTree = "<group>"; };
+		8B0AC76022B09359005F374F /* Faith.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Faith.mp3; sourceTree = "<group>"; };
+		8B0AC76122B09359005F374F /* Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Up.mp3; sourceTree = "<group>"; };
+		8B0AC76422B09365005F374F /* Loyalty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Loyalty.mp3; sourceTree = "<group>"; };
+		8B0AC76622B09841005F374F /* Champion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Champion.mp3; sourceTree = "<group>"; };
+		8B0AC76722B09841005F374F /* Some Way.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Some Way.mp3"; sourceTree = "<group>"; };
+		8B0AC76A22B09880005F374F /* Without Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Without Me.mp3"; sourceTree = "<group>"; };
+		8B0AC76B22B09880005F374F /* You Know How We Do It.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "You Know How We Do It.mp3"; sourceTree = "<group>"; };
+		8B0AC76C22B09881005F374F /* Xo Tour Llif3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Xo Tour Llif3.mp3"; sourceTree = "<group>"; };
+		8B0AC77022B098FD005F374F /* Throw Sum Mo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Throw Sum Mo.mp3"; sourceTree = "<group>"; };
+		8B0AC77122B098FE005F374F /* Wet Dreamz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wet Dreamz.mp3"; sourceTree = "<group>"; };
+		8B0AC77222B098FE005F374F /* The Real Slim Shady.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Real Slim Shady.mp3"; sourceTree = "<group>"; };
+		8B0AC77622B09975005F374F /* Unforgettable.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Unforgettable.mp3; sourceTree = "<group>"; };
+		8B0AC77722B09975005F374F /* SAD.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SAD.mp3; sourceTree = "<group>"; };
+		8B0AC77822B09975005F374F /* Slippery.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Slippery.mp3; sourceTree = "<group>"; };
+		8B0AC77C22B099D2005F374F /* No Type.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "No Type.mp3"; sourceTree = "<group>"; };
+		8B0AC77D22B099D2005F374F /* If I Can't.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "If I Can't.mp3"; sourceTree = "<group>"; };
+		8B0AC77E22B099D3005F374F /* No Role Modelz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "No Role Modelz.mp3"; sourceTree = "<group>"; };
+		8B0AC78222B09A19005F374F /* Come and See Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Come and See Me.mp3"; sourceTree = "<group>"; };
+		8B0AC78322B09A19005F374F /* Exchange.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Exchange.mp3; sourceTree = "<group>"; };
+		8B0AC78422B09A19005F374F /* 21 Questions.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "21 Questions.mp3"; sourceTree = "<group>"; };
+		8B0AC78522B09A19005F374F /* Black Beatles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Black Beatles.mp3"; sourceTree = "<group>"; };
+		8B0AC78A22B09C3D005F374F /* Motorsport.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Motorsport.mp3; sourceTree = "<group>"; };
+		8B0AC78B22B09C3E005F374F /* Walk It Talk It.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Walk It Talk It.mp3"; sourceTree = "<group>"; };
+		8B0AC78C22B09C3E005F374F /* CC.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CC.mp3; sourceTree = "<group>"; };
+		8B0AC79022B09C73005F374F /* In My Feelings.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "In My Feelings.mp3"; sourceTree = "<group>"; };
+		8B0AC79222B09C99005F374F /* Codeine Dreaming.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Codeine Dreaming.mp3"; sourceTree = "<group>"; };
+		8B0AC79322B09C99005F374F /* No Favors.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "No Favors.mp3"; sourceTree = "<group>"; };
+		8B0AC79422B09C99005F374F /* King's Dead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "King's Dead.mp3"; sourceTree = "<group>"; };
+		8B0AC7A222B1D5B1005F374F /* Don't Stop Til You Get Enough.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Don't Stop Til You Get Enough.mp3"; sourceTree = "<group>"; };
+		8B0AC7A322B1D5B1005F374F /* Brandy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Brandy.mp3; sourceTree = "<group>"; };
+		8B0AC7A422B1D5B1005F374F /* Happy Together.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Happy Together.mp3"; sourceTree = "<group>"; };
+		8B0AC7A522B1D5B1005F374F /* Cherry Bomb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cherry Bomb.mp3"; sourceTree = "<group>"; };
+		8B0AC7A622B1D5B1005F374F /* I'm Not In Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I'm Not In Love.mp3"; sourceTree = "<group>"; };
+		8B0AC7A722B1D5B1005F374F /* The Joker.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Joker.mp3"; sourceTree = "<group>"; };
+		8B0AC7A822B1D5B1005F374F /* Roxanne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Roxanne.mp3; sourceTree = "<group>"; };
+		8B0AC7A922B1D5B1005F374F /* Play That Funky Music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Play That Funky Music.mp3"; sourceTree = "<group>"; };
+		8B0AC7AA22B1D5B1005F374F /* Rubber Band.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rubber Band.mp3"; sourceTree = "<group>"; };
+		8B0AC7AB22B1D5B1005F374F /* I Want You Back.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I Want You Back.mp3"; sourceTree = "<group>"; };
+		8B0AC7AC22B1D5B1005F374F /* Baby Come Back.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Baby Come Back.mp3"; sourceTree = "<group>"; };
+		8B0AC7AD22B1D5B1005F374F /* Come and Get Your Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Come and Get Your Love.mp3"; sourceTree = "<group>"; };
+		8B0AC7AE22B1D5B2005F374F /* Paint It Black.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Paint It Black.mp3"; sourceTree = "<group>"; };
+		8B0AC7AF22B1D5B2005F374F /* Highway To Hell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Highway To Hell.mp3"; sourceTree = "<group>"; };
+		8B0AC7B022B1D5B2005F374F /* Hollywood Nights.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hollywood Nights.mp3"; sourceTree = "<group>"; };
+		8B0AC7B122B1D5B2005F374F /* Hooked On A Feeling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hooked On A Feeling.mp3"; sourceTree = "<group>"; };
+		8B0AC7B222B1D5B2005F374F /* Go All The Way.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Go All The Way.mp3"; sourceTree = "<group>"; };
+		8B0AC7B322B1D5B2005F374F /* Bohemian Rhapsody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bohemian Rhapsody.mp3"; sourceTree = "<group>"; };
+		8B0AC7B422B1D5B2005F374F /* Escape.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Escape.mp3; sourceTree = "<group>"; };
+		8B0AC7B522B1D5B2005F374F /* Free Ride.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Free Ride.mp3"; sourceTree = "<group>"; };
+		8B0AC7B622B1D5B2005F374F /* Fooled Around And Fell In Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fooled Around And Fell In Love.mp3"; sourceTree = "<group>"; };
+		8B0AC7B722B1D5B2005F374F /* Another One Bites The Dust.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Another One Bites The Dust.mp3"; sourceTree = "<group>"; };
+		8B0AC7B822B1D5B2005F374F /* Higher Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Higher Love.mp3"; sourceTree = "<group>"; };
+		8B0AC7B922B1D5B2005F374F /* Rock With You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rock With You.mp3"; sourceTree = "<group>"; };
+		8B0AC7BA22B1D5B3005F374F /* Livin' Thing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Livin' Thing.mp3"; sourceTree = "<group>"; };
+		8B0AC7BB22B1D5B3005F374F /* Rich Girl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rich Girl.mp3"; sourceTree = "<group>"; };
+		8B0AC7BC22B1D5B3005F374F /* O-O-H Child.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "O-O-H Child.mp3"; sourceTree = "<group>"; };
+		8B0AC7BD22B1D5B3005F374F /* All Along The Watchtower.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "All Along The Watchtower.mp3"; sourceTree = "<group>"; };
+		8B0AC7BE22B1D5B3005F374F /* One More Time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One More Time.mp3"; sourceTree = "<group>"; };
+		8B0AC7BF22B1D5B3005F374F /* Sara Smile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sara Smile.mp3"; sourceTree = "<group>"; };
+		8B0AC7C022B1D5B3005F374F /* Spirit In The Sky.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Spirit In The Sky.mp3"; sourceTree = "<group>"; };
+		8B0AC7C122B1D5B3005F374F /* Surrender.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Surrender.mp3; sourceTree = "<group>"; };
+		8B0AC7C222B1D5B3005F374F /* September.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = September.mp3; sourceTree = "<group>"; };
+		8B0AC7C322B1D5B3005F374F /* Southern Nights.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Southern Nights.mp3"; sourceTree = "<group>"; };
+		8B0AC7C422B1D5B4005F374F /* Return Of The Mack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Return Of The Mack.mp3"; sourceTree = "<group>"; };
+		8B0AC7C522B1D5B4005F374F /* Fly Like An Eagle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fly Like An Eagle.mp3"; sourceTree = "<group>"; };
+		8B0AC7C622B1D5B4005F374F /* Mr. Blue Sky.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mr. Blue Sky.mp3"; sourceTree = "<group>"; };
+		8B0AC7C722B1D5B4005F374F /* Immigrant Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Immigrant Song.mp3"; sourceTree = "<group>"; };
+		8B0AC7C822B1D5B4005F374F /* Don't Stop Me Now.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Don't Stop Me Now.mp3"; sourceTree = "<group>"; };
+		8B0AC7C922B1D5B4005F374F /* Wouldn't It Be Nice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wouldn't It Be Nice.mp3"; sourceTree = "<group>"; };
+		8B0AC7F322B28488005F374F /* Where Are U Now.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Where Are U Now.mp3"; sourceTree = "<group>"; };
+		8B0AC7F422B28488005F374F /* 7 Rings.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "7 Rings.mp3"; sourceTree = "<group>"; };
+		8B0AC7F522B28488005F374F /* Mariah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Mariah.mp3; sourceTree = "<group>"; };
+		8B0AC7F622B28488005F374F /* Wicked.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wicked.mp3; sourceTree = "<group>"; };
+		8B0AC7F722B28488005F374F /* S&M.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "S&M.mp3"; sourceTree = "<group>"; };
+		8B0AC7F822B28488005F374F /* Through The Late Night.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Through The Late Night.mp3"; sourceTree = "<group>"; };
+		8B0AC7F922B28488005F374F /* Beauty And A Beat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beauty And A Beat.mp3"; sourceTree = "<group>"; };
+		8B0AC7FA22B28489005F374F /* The Hills.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Hills.mp3"; sourceTree = "<group>"; };
+		8B0AC7FB22B28489005F374F /* Wanted You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wanted You.mp3"; sourceTree = "<group>"; };
+		8B0AC7FC22B28489005F374F /* Yosemite.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Yosemite.mp3; sourceTree = "<group>"; };
+		8B0AC7FD22B28489005F374F /* Too Good.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Too Good.mp3"; sourceTree = "<group>"; };
+		8B0AC7FE22B28489005F374F /* Started From The Bottom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Started From The Bottom.mp3"; sourceTree = "<group>"; };
+		8B0AC7FF22B28489005F374F /* Pray For Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pray For Me.mp3"; sourceTree = "<group>"; };
+		8B0AC80022B28489005F374F /* Love On The Brain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Love On The Brain.mp3"; sourceTree = "<group>"; };
+		8B0AC80122B28489005F374F /* Butterfly Effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Butterfly Effect.mp3"; sourceTree = "<group>"; };
+		8B0AC80222B28489005F374F /* Antidote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Antidote.mp3; sourceTree = "<group>"; };
+		8B0AC80322B28489005F374F /* Get Right Witcha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Get Right Witcha.mp3"; sourceTree = "<group>"; };
+		8B0AC80422B28489005F374F /* Goosebumps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Goosebumps.mp3; sourceTree = "<group>"; };
+		8B0AC80522B28489005F374F /* Sicko Mode.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sicko Mode.mp3"; sourceTree = "<group>"; };
+		8B0AC80622B28489005F374F /* When I Think About It.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "When I Think About It.mp3"; sourceTree = "<group>"; };
+		8B0AC80722B28489005F374F /* Diamonds Dancing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Diamonds Dancing.mp3"; sourceTree = "<group>"; };
+		8B0AC80822B2848A005F374F /* Gyalchester.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Gyalchester.mp3; sourceTree = "<group>"; };
+		8B0AC80922B2848A005F374F /* One Dance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One Dance.mp3"; sourceTree = "<group>"; };
+		8B0AC80A22B2848A005F374F /* No Flex Zone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "No Flex Zone.mp3"; sourceTree = "<group>"; };
+		8B0AC80B22B2848A005F374F /* One Last Time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One Last Time.mp3"; sourceTree = "<group>"; };
+		8B0AC80C22B2848A005F374F /* No Tears Left To Cry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "No Tears Left To Cry.mp3"; sourceTree = "<group>"; };
+		8B0AC80D22B2848A005F374F /* Where Ya At.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Where Ya At.mp3"; sourceTree = "<group>"; };
+		8B0AC80E22B2848A005F374F /* This Could Be Us.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "This Could Be Us.mp3"; sourceTree = "<group>"; };
+		8B0AC80F22B2848A005F374F /* T-Shirt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "T-Shirt.mp3"; sourceTree = "<group>"; };
+		8B0AC81022B2848A005F374F /* Swang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Swang.mp3; sourceTree = "<group>"; };
+		8B0AC81122B2848A005F374F /* Boyfriend.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Boyfriend.mp3; sourceTree = "<group>"; };
+		8B0AC81222B2848A005F374F /* Price On My Head.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Price On My Head.mp3"; sourceTree = "<group>"; };
+		8B0AC81322B2848A005F374F /* Portland.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Portland.mp3; sourceTree = "<group>"; };
+		8B0AC81422B2848B005F374F /* Only Girl In The World.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Only Girl In The World.mp3"; sourceTree = "<group>"; };
+		8B0AC81522B2848B005F374F /* Narcos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Narcos.mp3; sourceTree = "<group>"; };
+		8B0AC81622B2848B005F374F /* Break Free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Break Free.mp3"; sourceTree = "<group>"; };
+		8B0AC81722B2848B005F374F /* Gang Gang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Gang Gang.mp3"; sourceTree = "<group>"; };
+		8B0AC81822B2848B005F374F /* Break Up With Your Girlfriend I'm Bored.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Break Up With Your Girlfriend I'm Bored.mp3"; sourceTree = "<group>"; };
+		8B0AC81922B2848B005F374F /* Come Get Her.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Come Get Her.mp3"; sourceTree = "<group>"; };
+		8B0AC81A22B2848B005F374F /* Call Out My Name.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Call Out My Name.mp3"; sourceTree = "<group>"; };
+		8B0AC81B22B2848B005F374F /* Used To This.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Used To This.mp3"; sourceTree = "<group>"; };
+		8B0AC81C22B2848B005F374F /* We Found Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "We Found Love.mp3"; sourceTree = "<group>"; };
+		8B0AC81D22B2848B005F374F /* Myself.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Myself.mp3; sourceTree = "<group>"; };
+		8B0AC81E22B2848B005F374F /* Freshman List.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Freshman List.mp3"; sourceTree = "<group>"; };
+		8B0AC81F22B2848C005F374F /* Low Life.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Low Life.mp3"; sourceTree = "<group>"; };
+		8B0AC82022B2848C005F374F /* As Long As You Love Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "As Long As You Love Me.mp3"; sourceTree = "<group>"; };
+		8B0AC82122B2848C005F374F /* Guatemala.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Guatemala.mp3; sourceTree = "<group>"; };
+		8B0AC82222B2848C005F374F /* Some More.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Some More.mp3"; sourceTree = "<group>"; };
+		8B0AC82322B2848C005F374F /* Pick Up The Phone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pick Up The Phone.mp3"; sourceTree = "<group>"; };
+		8B0AC82422B2848C005F374F /* Stargazing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Stargazing.mp3; sourceTree = "<group>"; };
+		8B0AC82522B2848C005F374F /* Love The Way You Lie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Love The Way You Lie.mp3"; sourceTree = "<group>"; };
+		8B46963E22A35F1E007BE1A9 /* MultiplayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerViewController.swift; sourceTree = "<group>"; };
+		8B46964022A3648E007BE1A9 /* GenreSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreSelectionViewController.swift; sourceTree = "<group>"; };
+		8BC529A322A89A4E0064004C /* EasterEggViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasterEggViewController.swift; sourceTree = "<group>"; };
+		8BC529A922A8A7320064004C /* Controlla.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Controlla.mp3; sourceTree = "<group>"; };
+		8BC529AA22A8A7320064004C /* Hotline Bling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hotline Bling.mp3"; sourceTree = "<group>"; };
+		8BD837A922A0B19D002AEA6C /* SingleplayerInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleplayerInformation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5333608522959481002DFFE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5333607F22959481002DFFE6 = {
+			isa = PBXGroup;
+			children = (
+				5333608A22959481002DFFE6 /* guess-the-song */,
+				5333608922959481002DFFE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5333608922959481002DFFE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5333608822959481002DFFE6 /* guess-the-song.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5333608A22959481002DFFE6 /* guess-the-song */ = {
+			isa = PBXGroup;
+			children = (
+				5385CF2122A813D300F7D77B /* All Music */,
+				5333608B22959481002DFFE6 /* AppDelegate.swift */,
+				5333608D22959481002DFFE6 /* ViewController.swift */,
+				5333608F22959481002DFFE6 /* Main.storyboard */,
+				8B0AC72622B05090005F374F /* LeaderboardViewController.swift */,
+				5391E85022A5741000F4FDB7 /* MultiplayerGenreSelectionViewController.swift */,
+				5385CF1B22A808A500F7D77B /* CampaignsViewController.swift */,
+				5357525D229DC9FF00A2DDBF /* SongGuessingViewController.swift */,
+				5391E84E22A56BDD00F4FDB7 /* MultiplayerSongGuessingViewController.swift */,
+				8B46964022A3648E007BE1A9 /* GenreSelectionViewController.swift */,
+				8BD837A922A0B19D002AEA6C /* SingleplayerInformation.swift */,
+				5391E84C22A5682300F4FDB7 /* MultiplayerInformation.swift */,
+				8BC529A322A89A4E0064004C /* EasterEggViewController.swift */,
+				53098F0A22983BD900A876AE /* SingleplayerViewController.swift */,
+				8B46963E22A35F1E007BE1A9 /* MultiplayerViewController.swift */,
+				5308555F229EDF1800A711A5 /* songs.swift */,
+				8B0685C622A6D3C900E401BA /* SelectCampaignViewController.swift */,
+				8B0685C822A6D3E600E401BA /* CampaignsInformation.swift */,
+				5333609222959482002DFFE6 /* Assets.xcassets */,
+				5333609422959482002DFFE6 /* LaunchScreen.storyboard */,
+				5333609722959482002DFFE6 /* Info.plist */,
+				53EB85C022A9683A00374B4B /* RecordPlayer4.png */,
+				8B0AC73822B07EED005F374F /* amethyst.ttf */,
+				8B0AC75022B08A97005F374F /* bebas.ttf */,
+				8B0AC73522B07EED005F374F /* bold.ttf */,
+				8B0AC73422B07EED005F374F /* budmo.ttf */,
+				8B0AC73622B07EED005F374F /* caviar.ttf */,
+				8B0AC73C22B07EED005F374F /* devil.ttf */,
+				8B0AC73922B07EED005F374F /* lemon.otf */,
+				8B0AC73E22B07EEE005F374F /* neutraface.otf */,
+				8B0AC73722B07EED005F374F /* noodle.ttf */,
+				8B0AC73F22B07EEE005F374F /* pricedown.ttf */,
+				8B0AC73A22B07EED005F374F /* razed.ttf */,
+				8B0AC74C22B0816B005F374F /* ace.otf */,
+				8B0AC73B22B07EED005F374F /* retro.ttf */,
+			);
+			path = "guess-the-song";
+			sourceTree = "<group>";
+		};
+		533562A422AEAD2F007F0FC4 /* Pop */ = {
+			isa = PBXGroup;
+			children = (
+				5342EDF922B184440044ADFD /* 24k Magic.mp3 */,
+				5342EDFC22B184440044ADFD /* All We Know.mp3 */,
+				5342EDEF22B184440044ADFD /* Attention.mp3 */,
+				5342EE0022B184450044ADFD /* Believer.mp3 */,
+				5342EE0222B184450044ADFD /* Blank Space.mp3 */,
+				5342EDE722B184440044ADFD /* Can't Stop The Feeling.mp3 */,
+				5342EDEA22B184440044ADFD /* Cheap Thrills.mp3 */,
+				5342EDFB22B184440044ADFD /* Closer.mp3 */,
+				5342EDFE22B184450044ADFD /* Delicate.mp3 */,
+				5342EDF722B184440044ADFD /* Don't Let Me Down.mp3 */,
+				5342EDF122B184440044ADFD /* Feel It Still.mp3 */,
+				5342EDEE22B184440044ADFD /* Flashing Lights.mp3 */,
+				5342EDF222B184440044ADFD /* Hands To Myself.mp3 */,
+				5342EDE522B184430044ADFD /* Havana.mp3 */,
+				5342EDFA22B184440044ADFD /* Heathens.mp3 */,
+				5342EDF322B184440044ADFD /* I Took A Pill In Ibiza.mp3 */,
+				5342EDE622B184430044ADFD /* In The Name Of Love.mp3 */,
+				5342EE2422B18BDB0044ADFD /* It Ain't Me.mp3 */,
+				5342EDFF22B184450044ADFD /* ME!.mp3 */,
+				5342EDEC22B184440044ADFD /* Paris.mp3 */,
+				5342EDED22B184440044ADFD /* Ride.mp3 */,
+				5342EE0122B184450044ADFD /* Same Old Love.mp3 */,
+				5342EDF022B184440044ADFD /* Shake It Off.mp3 */,
+				5342EE2522B18BDB0044ADFD /* Shape of You.mp3 */,
+				5342EE0322B184450044ADFD /* Silence.mp3 */,
+				5342EDE822B184440044ADFD /* Something Just Like This.mp3 */,
+				5342EDE422B184430044ADFD /* That's What I Like.mp3 */,
+				5342EDF522B184440044ADFD /* There's Nothing Holdin Me Back.mp3 */,
+				5342EDF622B184440044ADFD /* Thunder.mp3 */,
+				5342EDE922B184440044ADFD /* Treat You Better.mp3 */,
+				5342EDEB22B184440044ADFD /* We Don't Talk Anymore.mp3 */,
+				5342EDF422B184440044ADFD /* Wolves.mp3 */,
+				5342EDF822B184440044ADFD /* Young Dumb and Broke.mp3 */,
+				53394FBC22B151D4000E2D2A /* Justin Bieber */,
+				8B4686F222AF40B00013EED8 /* Ariana Grande */,
+				8B4686FB22AF41850013EED8 /* The Weeknd */,
+				8B4686FA22AF417E0013EED8 /* Rihanna */,
+			);
+			path = Pop;
+			sourceTree = "<group>";
+		};
+		53394FBC22B151D4000E2D2A /* Justin Bieber */ = {
+			isa = PBXGroup;
+			children = (
+				53394FBF22B15216000E2D2A /* Despacito.mp3 */,
+				53394FC122B15216000E2D2A /* I'm The One.mp3 */,
+				53394FBE22B15216000E2D2A /* Love Yourself.mp3 */,
+				53394FC022B15216000E2D2A /* No Brainer.mp3 */,
+				53394FBD22B15216000E2D2A /* Sorry.mp3 */,
+				53394FC222B15216000E2D2A /* What Do You Mean.mp3 */,
+			);
+			path = "Justin Bieber";
+			sourceTree = "<group>";
+		};
+		5341F46B229D858D00ECA9C7 /* Rap */ = {
+			isa = PBXGroup;
+			children = (
+				5385CF2422A813F000F7D77B /* Drake */,
+				8B4686F422AF40F50013EED8 /* Future */,
+				8B4686F322AF40E70013EED8 /* NAV */,
+				8B4686F522AF410C0013EED8 /* Migos */,
+				8B4686F622AF41340013EED8 /* Kendrick Lamar */,
+				8B4686F822AF41610013EED8 /* Travis Scott */,
+				8B4686F722AF415B0013EED8 /* Eminem */,
+				5335629C22AEAAED007F0FC4 /* Sunflower.mp3 */,
+				533521F622A01CEF00A8FE28 /* Deja Vu.mp3 */,
+				8B0AC77022B098FD005F374F /* Throw Sum Mo.mp3 */,
+				8B0AC79222B09C99005F374F /* Codeine Dreaming.mp3 */,
+				8B0AC79322B09C99005F374F /* No Favors.mp3 */,
+				8B0AC77122B098FE005F374F /* Wet Dreamz.mp3 */,
+				8B0AC76C22B09881005F374F /* Xo Tour Llif3.mp3 */,
+				8B0AC76B22B09880005F374F /* You Know How We Do It.mp3 */,
+				8B0AC77722B09975005F374F /* SAD.mp3 */,
+				8B0AC77622B09975005F374F /* Unforgettable.mp3 */,
+				8B0AC77D22B099D2005F374F /* If I Can't.mp3 */,
+				8B0AC78422B09A19005F374F /* 21 Questions.mp3 */,
+				8B0AC78522B09A19005F374F /* Black Beatles.mp3 */,
+				8B0AC78222B09A19005F374F /* Come and See Me.mp3 */,
+				8B0AC78322B09A19005F374F /* Exchange.mp3 */,
+				8B0AC77E22B099D3005F374F /* No Role Modelz.mp3 */,
+				8B0AC77C22B099D2005F374F /* No Type.mp3 */,
+				5335629D22AEAAED007F0FC4 /* Bank Account.mp3 */,
+				533521F922A01CEF00A8FE28 /* Fine China.mp3 */,
+				8B0AC75922B09205005F374F /* Forgot About Dre.mp3 */,
+				8B0AC75A22B09205005F374F /* Old Town Road.mp3 */,
+				8B0AC75722B09205005F374F /* Rockstar.mp3 */,
+				8B0AC75622B09205005F374F /* Still Dre.mp3 */,
+				533521F822A01CEF00A8FE28 /* Thotiana.mp3 */,
+			);
+			path = Rap;
+			sourceTree = "<group>";
+		};
+		5385CF2122A813D300F7D77B /* All Music */ = {
+			isa = PBXGroup;
+			children = (
+				8B0AC7F222B28479005F374F /* Campaigns Exclusives */,
+				8B4686FC22AF41C50013EED8 /* 70s */,
+				533562A422AEAD2F007F0FC4 /* Pop */,
+				53EB85B522A95B2000374B4B /* FL */,
+				5341F46B229D858D00ECA9C7 /* Rap */,
+			);
+			path = "All Music";
+			sourceTree = "<group>";
+		};
+		5385CF2422A813F000F7D77B /* Drake */ = {
+			isa = PBXGroup;
+			children = (
+				8B0AC75222B091C7005F374F /* Jumpman.mp3 */,
+				8B0AC75322B091C7005F374F /* Look Alive.mp3 */,
+				8BC529A922A8A7320064004C /* Controlla.mp3 */,
+				8BC529AA22A8A7320064004C /* Hotline Bling.mp3 */,
+				8B0AC79022B09C73005F374F /* In My Feelings.mp3 */,
+				5385CF1F22A813C500F7D77B /* God's Plan.mp3 */,
+			);
+			path = Drake;
+			sourceTree = "<group>";
+		};
+		53EB85B522A95B2000374B4B /* FL */ = {
+			isa = PBXGroup;
+			children = (
+				53EB85B622A95B2B00374B4B /* Shayn-01.mp3 */,
+				53EB85B722A95B2B00374B4B /* Shayn-02.mp3 */,
+				53EB85B822A95B2B00374B4B /* Shayn-03.mp3 */,
+			);
+			path = FL;
+			sourceTree = "<group>";
+		};
+		8B0AC7F222B28479005F374F /* Campaigns Exclusives */ = {
+			isa = PBXGroup;
+			children = (
+				8B0AC7F422B28488005F374F /* 7 Rings.mp3 */,
+				8B0AC80222B28489005F374F /* Antidote.mp3 */,
+				8B0AC82022B2848C005F374F /* As Long As You Love Me.mp3 */,
+				8B0AC7F922B28488005F374F /* Beauty And A Beat.mp3 */,
+				8B0AC81122B2848A005F374F /* Boyfriend.mp3 */,
+				8B0AC81622B2848B005F374F /* Break Free.mp3 */,
+				8B0AC81822B2848B005F374F /* Break Up With Your Girlfriend I'm Bored.mp3 */,
+				8B0AC80122B28489005F374F /* Butterfly Effect.mp3 */,
+				8B0AC81A22B2848B005F374F /* Call Out My Name.mp3 */,
+				8B0AC81922B2848B005F374F /* Come Get Her.mp3 */,
+				8B0AC80722B28489005F374F /* Diamonds Dancing.mp3 */,
+				8B0AC81E22B2848B005F374F /* Freshman List.mp3 */,
+				8B0AC81722B2848B005F374F /* Gang Gang.mp3 */,
+				8B0AC80322B28489005F374F /* Get Right Witcha.mp3 */,
+				8B0AC80422B28489005F374F /* Goosebumps.mp3 */,
+				8B0AC82122B2848C005F374F /* Guatemala.mp3 */,
+				8B0AC80822B2848A005F374F /* Gyalchester.mp3 */,
+				8B0AC80022B28489005F374F /* Love On The Brain.mp3 */,
+				8B0AC82522B2848C005F374F /* Love The Way You Lie.mp3 */,
+				8B0AC81F22B2848C005F374F /* Low Life.mp3 */,
+				8B0AC7F522B28488005F374F /* Mariah.mp3 */,
+				8B0AC81D22B2848B005F374F /* Myself.mp3 */,
+				8B0AC81522B2848B005F374F /* Narcos.mp3 */,
+				8B0AC80A22B2848A005F374F /* No Flex Zone.mp3 */,
+				8B0AC80C22B2848A005F374F /* No Tears Left To Cry.mp3 */,
+				8B0AC80922B2848A005F374F /* One Dance.mp3 */,
+				8B0AC80B22B2848A005F374F /* One Last Time.mp3 */,
+				8B0AC81422B2848B005F374F /* Only Girl In The World.mp3 */,
+				8B0AC82322B2848C005F374F /* Pick Up The Phone.mp3 */,
+				8B0AC81322B2848A005F374F /* Portland.mp3 */,
+				8B0AC7FF22B28489005F374F /* Pray For Me.mp3 */,
+				8B0AC81222B2848A005F374F /* Price On My Head.mp3 */,
+				8B0AC7F722B28488005F374F /* S&M.mp3 */,
+				8B0AC80522B28489005F374F /* Sicko Mode.mp3 */,
+				8B0AC82222B2848C005F374F /* Some More.mp3 */,
+				8B0AC82422B2848C005F374F /* Stargazing.mp3 */,
+				8B0AC7FE22B28489005F374F /* Started From The Bottom.mp3 */,
+				8B0AC81022B2848A005F374F /* Swang.mp3 */,
+				8B0AC80F22B2848A005F374F /* T-Shirt.mp3 */,
+				8B0AC7FA22B28489005F374F /* The Hills.mp3 */,
+				8B0AC80E22B2848A005F374F /* This Could Be Us.mp3 */,
+				8B0AC7F822B28488005F374F /* Through The Late Night.mp3 */,
+				8B0AC7FD22B28489005F374F /* Too Good.mp3 */,
+				8B0AC81B22B2848B005F374F /* Used To This.mp3 */,
+				8B0AC7FB22B28489005F374F /* Wanted You.mp3 */,
+				8B0AC81C22B2848B005F374F /* We Found Love.mp3 */,
+				8B0AC80622B28489005F374F /* When I Think About It.mp3 */,
+				8B0AC7F322B28488005F374F /* Where Are U Now.mp3 */,
+				8B0AC80D22B2848A005F374F /* Where Ya At.mp3 */,
+				8B0AC7F622B28488005F374F /* Wicked.mp3 */,
+				8B0AC7FC22B28489005F374F /* Yosemite.mp3 */,
+			);
+			path = "Campaigns Exclusives";
+			sourceTree = "<group>";
+		};
+		8B4686F222AF40B00013EED8 /* Ariana Grande */ = {
+			isa = PBXGroup;
+			children = (
+				5342EDCA22B1832F0044ADFD /* Dangerous Woman.mp3 */,
+				5342EDC922B1832F0044ADFD /* Everyday.mp3 */,
+				5342EDC722B1832F0044ADFD /* Into You.mp3 */,
+				5342EDC822B1832F0044ADFD /* Side To Side.mp3 */,
+				5342EDC622B1832F0044ADFD /* thank u, next.mp3 */,
+			);
+			path = "Ariana Grande";
+			sourceTree = "<group>";
+		};
+		8B4686F322AF40E70013EED8 /* NAV */ = {
+			isa = PBXGroup;
+			children = (
+				8B0AC76022B09359005F374F /* Faith.mp3 */,
+				8B0AC76622B09841005F374F /* Champion.mp3 */,
+				8B0AC76722B09841005F374F /* Some Way.mp3 */,
+				8B0AC76122B09359005F374F /* Up.mp3 */,
+				533521FA22A01CEF00A8FE28 /* beibs in the trap.mp3 */,
+			);
+			path = NAV;
+			sourceTree = "<group>";
+		};
+		8B4686F422AF40F50013EED8 /* Future */ = {
+			isa = PBXGroup;
+			children = (
+				533521F722A01CEF00A8FE28 /* Mask Off.mp3 */,
+			);
+			path = Future;
+			sourceTree = "<group>";
+		};
+		8B4686F522AF410C0013EED8 /* Migos */ = {
+			isa = PBXGroup;
+			children = (
+				8B0AC78C22B09C3E005F374F /* CC.mp3 */,
+				8B0AC78A22B09C3D005F374F /* Motorsport.mp3 */,
+				8B0AC78B22B09C3E005F374F /* Walk It Talk It.mp3 */,
+				8B0AC77822B09975005F374F /* Slippery.mp3 */,
+				533521FB22A01CEF00A8FE28 /* Stir Fry.mp3 */,
+				5335629E22AEAAED007F0FC4 /* Bad and Boujee.mp3 */,
+			);
+			path = Migos;
+			sourceTree = "<group>";
+		};
+		8B4686F622AF41340013EED8 /* Kendrick Lamar */ = {
+			isa = PBXGroup;
+			children = (
+				8B0AC76422B09365005F374F /* Loyalty.mp3 */,
+				8B0AC79422B09C99005F374F /* King's Dead.mp3 */,
+			);
+			path = "Kendrick Lamar";
+			sourceTree = "<group>";
+		};
+		8B4686F722AF415B0013EED8 /* Eminem */ = {
+			isa = PBXGroup;
+			children = (
+				8B0AC76A22B09880005F374F /* Without Me.mp3 */,
+				8B0AC77222B098FE005F374F /* The Real Slim Shady.mp3 */,
+			);
+			path = Eminem;
+			sourceTree = "<group>";
+		};
+		8B4686F822AF41610013EED8 /* Travis Scott */ = {
+			isa = PBXGroup;
+			children = (
+				8B0AC75822B09205005F374F /* ZEZE.mp3 */,
+			);
+			path = "Travis Scott";
+			sourceTree = "<group>";
+		};
+		8B4686FA22AF417E0013EED8 /* Rihanna */ = {
+			isa = PBXGroup;
+			children = (
+				5342EDDA22B183C40044ADFD /* Loyalty.mp3 */,
+				5342EDDB22B183C40044ADFD /* Needed Me.mp3 */,
+				5342EDDE22B183C40044ADFD /* This Is What You Came For.mp3 */,
+				5342EDDC22B183C40044ADFD /* Wild Thoughts.mp3 */,
+				5342EDDD22B183C40044ADFD /* Work.mp3 */,
+			);
+			path = Rihanna;
+			sourceTree = "<group>";
+		};
+		8B4686FB22AF41850013EED8 /* The Weeknd */ = {
+			isa = PBXGroup;
+			children = (
+				5342EDD222B183AB0044ADFD /* Can't Feel My Face.mp3 */,
+				5342EDD122B183AB0044ADFD /* Earned It.mp3 */,
+				5342EDD422B183AB0044ADFD /* I Feel It Coming.mp3 */,
+				5342EDD322B183AB0044ADFD /* Some Way.mp3 */,
+				5342EDD022B183AB0044ADFD /* Starboy.mp3 */,
+			);
+			path = "The Weeknd";
+			sourceTree = "<group>";
+		};
+		8B4686FC22AF41C50013EED8 /* 70s */ = {
+			isa = PBXGroup;
+			children = (
+				8B0AC7BD22B1D5B3005F374F /* All Along The Watchtower.mp3 */,
+				8B0AC7B722B1D5B2005F374F /* Another One Bites The Dust.mp3 */,
+				8B0AC7AC22B1D5B1005F374F /* Baby Come Back.mp3 */,
+				8B0AC7B322B1D5B2005F374F /* Bohemian Rhapsody.mp3 */,
+				8B0AC7A322B1D5B1005F374F /* Brandy.mp3 */,
+				8B0AC7A522B1D5B1005F374F /* Cherry Bomb.mp3 */,
+				8B0AC7AD22B1D5B1005F374F /* Come and Get Your Love.mp3 */,
+				8B0AC7C822B1D5B4005F374F /* Don't Stop Me Now.mp3 */,
+				8B0AC7A222B1D5B1005F374F /* Don't Stop Til You Get Enough.mp3 */,
+				8B0AC7B422B1D5B2005F374F /* Escape.mp3 */,
+				8B0AC7C522B1D5B4005F374F /* Fly Like An Eagle.mp3 */,
+				8B0AC7B622B1D5B2005F374F /* Fooled Around And Fell In Love.mp3 */,
+				8B0AC7B522B1D5B2005F374F /* Free Ride.mp3 */,
+				8B0AC7B222B1D5B2005F374F /* Go All The Way.mp3 */,
+				8B0AC7A422B1D5B1005F374F /* Happy Together.mp3 */,
+				8B0AC7B822B1D5B2005F374F /* Higher Love.mp3 */,
+				8B0AC7AF22B1D5B2005F374F /* Highway To Hell.mp3 */,
+				8B0AC7B022B1D5B2005F374F /* Hollywood Nights.mp3 */,
+				8B0AC7B122B1D5B2005F374F /* Hooked On A Feeling.mp3 */,
+				8B0AC7AB22B1D5B1005F374F /* I Want You Back.mp3 */,
+				8B0AC7A622B1D5B1005F374F /* I'm Not In Love.mp3 */,
+				8B0AC7C722B1D5B4005F374F /* Immigrant Song.mp3 */,
+				8B0AC7BA22B1D5B3005F374F /* Livin' Thing.mp3 */,
+				8B0AC7C622B1D5B4005F374F /* Mr. Blue Sky.mp3 */,
+				8B0AC7BC22B1D5B3005F374F /* O-O-H Child.mp3 */,
+				8B0AC7BE22B1D5B3005F374F /* One More Time.mp3 */,
+				8B0AC7AE22B1D5B2005F374F /* Paint It Black.mp3 */,
+				8B0AC7A922B1D5B1005F374F /* Play That Funky Music.mp3 */,
+				8B0AC7C422B1D5B4005F374F /* Return Of The Mack.mp3 */,
+				8B0AC7BB22B1D5B3005F374F /* Rich Girl.mp3 */,
+				8B0AC7B922B1D5B2005F374F /* Rock With You.mp3 */,
+				8B0AC7A822B1D5B1005F374F /* Roxanne.mp3 */,
+				8B0AC7AA22B1D5B1005F374F /* Rubber Band.mp3 */,
+				8B0AC7BF22B1D5B3005F374F /* Sara Smile.mp3 */,
+				8B0AC7C222B1D5B3005F374F /* September.mp3 */,
+				8B0AC7C322B1D5B3005F374F /* Southern Nights.mp3 */,
+				8B0AC7C022B1D5B3005F374F /* Spirit In The Sky.mp3 */,
+				8B0AC7C122B1D5B3005F374F /* Surrender.mp3 */,
+				8B0AC7A722B1D5B1005F374F /* The Joker.mp3 */,
+				8B0AC7C922B1D5B4005F374F /* Wouldn't It Be Nice.mp3 */,
+			);
+			path = 70s;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5333608722959481002DFFE6 /* guess-the-song */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5333609A22959482002DFFE6 /* Build configuration list for PBXNativeTarget "guess-the-song" */;
+			buildPhases = (
+				5333608422959481002DFFE6 /* Sources */,
+				5333608522959481002DFFE6 /* Frameworks */,
+				5333608622959481002DFFE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "guess-the-song";
+			productName = Adatia_Shayn_ISP;
+			productReference = 5333608822959481002DFFE6 /* guess-the-song.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5333608022959481002DFFE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					5333608722959481002DFFE6 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 5333608322959481002DFFE6 /* Build configuration list for PBXProject "guess-the-song" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5333607F22959481002DFFE6;
+			productRefGroup = 5333608922959481002DFFE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5333608722959481002DFFE6 /* guess-the-song */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5333608622959481002DFFE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0AC7E022B1D5B4005F374F /* Higher Love.mp3 in Resources */,
+				8B0AC77522B098FE005F374F /* The Real Slim Shady.mp3 in Resources */,
+				8B0AC85822B2848C005F374F /* Love The Way You Lie.mp3 in Resources */,
+				8B0AC84A22B2848C005F374F /* Gang Gang.mp3 in Resources */,
+				8B0AC83522B2848C005F374F /* Antidote.mp3 in Resources */,
+				8B0AC77B22B09975005F374F /* Slippery.mp3 in Resources */,
+				8B0AC78622B09A19005F374F /* Come and See Me.mp3 in Resources */,
+				5342EDE222B183C40044ADFD /* Work.mp3 in Resources */,
+				8B0AC7D522B1D5B4005F374F /* Come and Get Your Love.mp3 in Resources */,
+				5342EE2322B184450044ADFD /* Silence.mp3 in Resources */,
+				5342EDD622B183AB0044ADFD /* Earned It.mp3 in Resources */,
+				8B0AC76F22B09881005F374F /* Xo Tour Llif3.mp3 in Resources */,
+				8B0AC82722B2848C005F374F /* 7 Rings.mp3 in Resources */,
+				5342EE0C22B184450044ADFD /* Paris.mp3 in Resources */,
+				5342EE1E22B184450044ADFD /* Delicate.mp3 in Resources */,
+				8B0AC83622B2848C005F374F /* Get Right Witcha.mp3 in Resources */,
+				8B0AC85422B2848C005F374F /* Guatemala.mp3 in Resources */,
+				5342EE0722B184450044ADFD /* Can't Stop The Feeling.mp3 in Resources */,
+				8B0AC7CD22B1D5B4005F374F /* Cherry Bomb.mp3 in Resources */,
+				533562A022AEAAED007F0FC4 /* Sunflower.mp3 in Resources */,
+				5333609322959482002DFFE6 /* Assets.xcassets in Resources */,
+				8B0AC7E422B1D5B4005F374F /* O-O-H Child.mp3 in Resources */,
+				8B0AC7ED22B1D5B4005F374F /* Fly Like An Eagle.mp3 in Resources */,
+				8B0AC84122B2848C005F374F /* This Could Be Us.mp3 in Resources */,
+				8B0AC83C22B2848C005F374F /* One Dance.mp3 in Resources */,
+				533562A222AEAAED007F0FC4 /* Bad and Boujee.mp3 in Resources */,
+				5342EE0A22B184450044ADFD /* Cheap Thrills.mp3 in Resources */,
+				5342EE1222B184450044ADFD /* Hands To Myself.mp3 in Resources */,
+				5342EDCB22B1832F0044ADFD /* thank u, next.mp3 in Resources */,
+				8B0AC85722B2848C005F374F /* Stargazing.mp3 in Resources */,
+				8B0AC83122B2848C005F374F /* Started From The Bottom.mp3 in Resources */,
+				8B0AC76922B09841005F374F /* Some Way.mp3 in Resources */,
+				8B0AC7D022B1D5B4005F374F /* Roxanne.mp3 in Resources */,
+				533521FD22A01CEF00A8FE28 /* Mask Off.mp3 in Resources */,
+				53EB85C122A9683B00374B4B /* RecordPlayer4.png in Resources */,
+				8B0AC76522B09365005F374F /* Loyalty.mp3 in Resources */,
+				8B0AC76E22B09881005F374F /* You Know How We Do It.mp3 in Resources */,
+				8B0AC82822B2848C005F374F /* Mariah.mp3 in Resources */,
+				8B0AC83B22B2848C005F374F /* Gyalchester.mp3 in Resources */,
+				8B0AC75422B091C7005F374F /* Jumpman.mp3 in Resources */,
+				8B0AC83022B2848C005F374F /* Too Good.mp3 in Resources */,
+				53394FC822B15216000E2D2A /* What Do You Mean.mp3 in Resources */,
+				8B0AC7D722B1D5B4005F374F /* Highway To Hell.mp3 in Resources */,
+				8B0AC78D22B09C3E005F374F /* Motorsport.mp3 in Resources */,
+				5342EE1A22B184450044ADFD /* Heathens.mp3 in Resources */,
+				53394FC322B15216000E2D2A /* Sorry.mp3 in Resources */,
+				8B0AC85622B2848C005F374F /* Pick Up The Phone.mp3 in Resources */,
+				5385CF2022A813C500F7D77B /* God's Plan.mp3 in Resources */,
+				8B0AC74022B07EEE005F374F /* budmo.ttf in Resources */,
+				8B0AC7CE22B1D5B4005F374F /* I'm Not In Love.mp3 in Resources */,
+				8B0AC7EE22B1D5B4005F374F /* Mr. Blue Sky.mp3 in Resources */,
+				8B0AC7E222B1D5B4005F374F /* Livin' Thing.mp3 in Resources */,
+				8B0AC7F022B1D5B4005F374F /* Don't Stop Me Now.mp3 in Resources */,
+				5342EE0622B184450044ADFD /* In The Name Of Love.mp3 in Resources */,
+				8B0AC7E922B1D5B4005F374F /* Surrender.mp3 in Resources */,
+				5333609122959481002DFFE6 /* Main.storyboard in Resources */,
+				8B0AC76D22B09881005F374F /* Without Me.mp3 in Resources */,
+				5342EE2622B18BDB0044ADFD /* It Ain't Me.mp3 in Resources */,
+				8B0AC79522B09C99005F374F /* Codeine Dreaming.mp3 in Resources */,
+				8B0AC78922B09A19005F374F /* Black Beatles.mp3 in Resources */,
+				8B0AC82D22B2848C005F374F /* The Hills.mp3 in Resources */,
+				8B0AC7EF22B1D5B4005F374F /* Immigrant Song.mp3 in Resources */,
+				8B0AC75B22B09205005F374F /* Still Dre.mp3 in Resources */,
+				5342EE1522B184450044ADFD /* There's Nothing Holdin Me Back.mp3 in Resources */,
+				8B0AC82A22B2848C005F374F /* S&M.mp3 in Resources */,
+				5342EE0E22B184450044ADFD /* Flashing Lights.mp3 in Resources */,
+				8B0AC74422B07EEE005F374F /* amethyst.ttf in Resources */,
+				53394FC422B15216000E2D2A /* Love Yourself.mp3 in Resources */,
+				8B0AC79122B09C73005F374F /* In My Feelings.mp3 in Resources */,
+				8B0AC7EC22B1D5B4005F374F /* Return Of The Mack.mp3 in Resources */,
+				8B0AC7E622B1D5B4005F374F /* One More Time.mp3 in Resources */,
+				8B0AC83222B2848C005F374F /* Pray For Me.mp3 in Resources */,
+				5335220022A01CEF00A8FE28 /* beibs in the trap.mp3 in Resources */,
+				8B0AC75E22B09205005F374F /* Forgot About Dre.mp3 in Resources */,
+				8B0AC76322B09359005F374F /* Up.mp3 in Resources */,
+				5342EE1122B184450044ADFD /* Feel It Still.mp3 in Resources */,
+				8B0AC84922B2848C005F374F /* Break Free.mp3 in Resources */,
+				533521FF22A01CEF00A8FE28 /* Fine China.mp3 in Resources */,
+				5342EE1922B184450044ADFD /* 24k Magic.mp3 in Resources */,
+				8B0AC74522B07EEE005F374F /* lemon.otf in Resources */,
+				5342EE2222B184450044ADFD /* Blank Space.mp3 in Resources */,
+				5342EE1F22B184450044ADFD /* ME!.mp3 in Resources */,
+				8B0AC7CA22B1D5B4005F374F /* Don't Stop Til You Get Enough.mp3 in Resources */,
+				8B0AC83E22B2848C005F374F /* One Last Time.mp3 in Resources */,
+				8B0AC7D222B1D5B4005F374F /* Rubber Band.mp3 in Resources */,
+				8B0AC75522B091C7005F374F /* Look Alive.mp3 in Resources */,
+				5342EDD722B183AB0044ADFD /* Can't Feel My Face.mp3 in Resources */,
+				5342EE1722B184450044ADFD /* Don't Let Me Down.mp3 in Resources */,
+				8B0AC83322B2848C005F374F /* Love On The Brain.mp3 in Resources */,
+				8B0AC75D22B09205005F374F /* ZEZE.mp3 in Resources */,
+				5335220122A01CEF00A8FE28 /* Stir Fry.mp3 in Resources */,
+				5342EDCD22B1832F0044ADFD /* Side To Side.mp3 in Resources */,
+				8B0AC84F22B2848C005F374F /* We Found Love.mp3 in Resources */,
+				5342EE0522B184450044ADFD /* Havana.mp3 in Resources */,
+				8B0AC83422B2848C005F374F /* Butterfly Effect.mp3 in Resources */,
+				5342EDE122B183C40044ADFD /* Wild Thoughts.mp3 in Resources */,
+				8B0AC74A22B07EEE005F374F /* neutraface.otf in Resources */,
+				5342EDCF22B1832F0044ADFD /* Dangerous Woman.mp3 in Resources */,
+				8B0AC74122B07EEE005F374F /* bold.ttf in Resources */,
+				5342EE1822B184450044ADFD /* Young Dumb and Broke.mp3 in Resources */,
+				5342EE1022B184450044ADFD /* Shake It Off.mp3 in Resources */,
+				5342EDE022B183C40044ADFD /* Needed Me.mp3 in Resources */,
+				8B0AC84222B2848C005F374F /* T-Shirt.mp3 in Resources */,
+				8B0AC7D922B1D5B4005F374F /* Hooked On A Feeling.mp3 in Resources */,
+				53394FC522B15216000E2D2A /* Despacito.mp3 in Resources */,
+				8B0AC74322B07EEE005F374F /* noodle.ttf in Resources */,
+				8B0AC83A22B2848C005F374F /* Diamonds Dancing.mp3 in Resources */,
+				5342EE1422B184450044ADFD /* Wolves.mp3 in Resources */,
+				8B0AC84422B2848C005F374F /* Boyfriend.mp3 in Resources */,
+				5342EDD522B183AB0044ADFD /* Starboy.mp3 in Resources */,
+				8B0AC77322B098FE005F374F /* Throw Sum Mo.mp3 in Resources */,
+				8B0AC74822B07EEE005F374F /* devil.ttf in Resources */,
+				8B0AC7E522B1D5B4005F374F /* All Along The Watchtower.mp3 in Resources */,
+				8B0AC83F22B2848C005F374F /* No Tears Left To Cry.mp3 in Resources */,
+				8B0AC82B22B2848C005F374F /* Through The Late Night.mp3 in Resources */,
+				8B0AC77422B098FE005F374F /* Wet Dreamz.mp3 in Resources */,
+				5342EDE322B183C40044ADFD /* This Is What You Came For.mp3 in Resources */,
+				8B0AC82E22B2848C005F374F /* Wanted You.mp3 in Resources */,
+				8B0AC77A22B09975005F374F /* SAD.mp3 in Resources */,
+				8B0AC7DD22B1D5B4005F374F /* Free Ride.mp3 in Resources */,
+				8B0AC7D322B1D5B4005F374F /* I Want You Back.mp3 in Resources */,
+				53EB85B922A95B2B00374B4B /* Shayn-01.mp3 in Resources */,
+				5342EE0922B184450044ADFD /* Treat You Better.mp3 in Resources */,
+				8B0AC75C22B09205005F374F /* Rockstar.mp3 in Resources */,
+				8B0AC7EB22B1D5B4005F374F /* Southern Nights.mp3 in Resources */,
+				8B0AC7E122B1D5B4005F374F /* Rock With You.mp3 in Resources */,
+				53EB85BA22A95B2B00374B4B /* Shayn-02.mp3 in Resources */,
+				8B0AC84E22B2848C005F374F /* Used To This.mp3 in Resources */,
+				8B0AC76822B09841005F374F /* Champion.mp3 in Resources */,
+				8B0AC74222B07EEE005F374F /* caviar.ttf in Resources */,
+				53394FC622B15216000E2D2A /* No Brainer.mp3 in Resources */,
+				8B0AC79622B09C99005F374F /* No Favors.mp3 in Resources */,
+				5342EE1B22B184450044ADFD /* Closer.mp3 in Resources */,
+				8B0AC78722B09A19005F374F /* Exchange.mp3 in Resources */,
+				8B0AC78022B099D3005F374F /* If I Can't.mp3 in Resources */,
+				5342EE0D22B184450044ADFD /* Ride.mp3 in Resources */,
+				8B0AC7F122B1D5B4005F374F /* Wouldn't It Be Nice.mp3 in Resources */,
+				8B0AC83722B2848C005F374F /* Goosebumps.mp3 in Resources */,
+				8B0AC84D22B2848C005F374F /* Call Out My Name.mp3 in Resources */,
+				8B0AC85222B2848C005F374F /* Low Life.mp3 in Resources */,
+				8B0AC82F22B2848C005F374F /* Yosemite.mp3 in Resources */,
+				8B0AC7DF22B1D5B4005F374F /* Another One Bites The Dust.mp3 in Resources */,
+				8B0AC7E822B1D5B4005F374F /* Spirit In The Sky.mp3 in Resources */,
+				8B0AC83822B2848C005F374F /* Sicko Mode.mp3 in Resources */,
+				8B0AC77922B09975005F374F /* Unforgettable.mp3 in Resources */,
+				8B0AC84622B2848C005F374F /* Portland.mp3 in Resources */,
+				5342EE1C22B184450044ADFD /* All We Know.mp3 in Resources */,
+				8B0AC74B22B07EEE005F374F /* pricedown.ttf in Resources */,
+				5342EDCC22B1832F0044ADFD /* Into You.mp3 in Resources */,
+				53EB85BB22A95B2B00374B4B /* Shayn-03.mp3 in Resources */,
+				8B0AC74D22B0816B005F374F /* ace.otf in Resources */,
+				8B0AC7EA22B1D5B4005F374F /* September.mp3 in Resources */,
+				8B0AC82622B2848C005F374F /* Where Are U Now.mp3 in Resources */,
+				8B0AC7E722B1D5B4005F374F /* Sara Smile.mp3 in Resources */,
+				5342EE2722B18BDB0044ADFD /* Shape of You.mp3 in Resources */,
+				8B0AC85022B2848C005F374F /* Myself.mp3 in Resources */,
+				8B0AC7DB22B1D5B4005F374F /* Bohemian Rhapsody.mp3 in Resources */,
+				8B0AC78E22B09C3E005F374F /* Walk It Talk It.mp3 in Resources */,
+				5342EDCE22B1832F0044ADFD /* Everyday.mp3 in Resources */,
+				8B0AC82922B2848C005F374F /* Wicked.mp3 in Resources */,
+				8B0AC7CB22B1D5B4005F374F /* Brandy.mp3 in Resources */,
+				8B0AC78F22B09C3E005F374F /* CC.mp3 in Resources */,
+				8B0AC84B22B2848C005F374F /* Break Up With Your Girlfriend I'm Bored.mp3 in Resources */,
+				8B0AC85522B2848C005F374F /* Some More.mp3 in Resources */,
+				5342EE2122B184450044ADFD /* Same Old Love.mp3 in Resources */,
+				8B0AC7CF22B1D5B4005F374F /* The Joker.mp3 in Resources */,
+				8B0AC84522B2848C005F374F /* Price On My Head.mp3 in Resources */,
+				8B0AC82C22B2848C005F374F /* Beauty And A Beat.mp3 in Resources */,
+				8B0AC75122B08A97005F374F /* bebas.ttf in Resources */,
+				8B0AC84C22B2848C005F374F /* Come Get Her.mp3 in Resources */,
+				8B0AC84022B2848C005F374F /* Where Ya At.mp3 in Resources */,
+				8B0AC83922B2848C005F374F /* When I Think About It.mp3 in Resources */,
+				8B0AC75F22B09205005F374F /* Old Town Road.mp3 in Resources */,
+				8B0AC7D422B1D5B4005F374F /* Baby Come Back.mp3 in Resources */,
+				5342EE0422B184450044ADFD /* That's What I Like.mp3 in Resources */,
+				533562A122AEAAED007F0FC4 /* Bank Account.mp3 in Resources */,
+				8B0AC7D622B1D5B4005F374F /* Paint It Black.mp3 in Resources */,
+				5342EDD922B183AB0044ADFD /* I Feel It Coming.mp3 in Resources */,
+				8B0AC7D122B1D5B4005F374F /* Play That Funky Music.mp3 in Resources */,
+				8B0AC77F22B099D3005F374F /* No Type.mp3 in Resources */,
+				8B0AC84722B2848C005F374F /* Only Girl In The World.mp3 in Resources */,
+				53394FC722B15216000E2D2A /* I'm The One.mp3 in Resources */,
+				8B0AC7D822B1D5B4005F374F /* Hollywood Nights.mp3 in Resources */,
+				5342EE2022B184450044ADFD /* Believer.mp3 in Resources */,
+				5342EE0F22B184450044ADFD /* Attention.mp3 in Resources */,
+				8B0AC7CC22B1D5B4005F374F /* Happy Together.mp3 in Resources */,
+				8B0AC74622B07EEE005F374F /* razed.ttf in Resources */,
+				8B0AC74722B07EEE005F374F /* retro.ttf in Resources */,
+				8B0AC85322B2848C005F374F /* As Long As You Love Me.mp3 in Resources */,
+				8B0AC7DC22B1D5B4005F374F /* Escape.mp3 in Resources */,
+				8BC529AC22A8A7320064004C /* Hotline Bling.mp3 in Resources */,
+				533521FE22A01CEF00A8FE28 /* Thotiana.mp3 in Resources */,
+				5342EE0B22B184450044ADFD /* We Don't Talk Anymore.mp3 in Resources */,
+				5342EE1622B184450044ADFD /* Thunder.mp3 in Resources */,
+				8B0AC78122B099D3005F374F /* No Role Modelz.mp3 in Resources */,
+				8B0AC7DA22B1D5B4005F374F /* Go All The Way.mp3 in Resources */,
+				8B0AC85122B2848C005F374F /* Freshman List.mp3 in Resources */,
+				8B0AC83D22B2848C005F374F /* No Flex Zone.mp3 in Resources */,
+				8B0AC7E322B1D5B4005F374F /* Rich Girl.mp3 in Resources */,
+				8B0AC7DE22B1D5B4005F374F /* Fooled Around And Fell In Love.mp3 in Resources */,
+				533521FC22A01CEF00A8FE28 /* Deja Vu.mp3 in Resources */,
+				5342EE0822B184450044ADFD /* Something Just Like This.mp3 in Resources */,
+				8B0AC78822B09A19005F374F /* 21 Questions.mp3 in Resources */,
+				8B0AC84822B2848C005F374F /* Narcos.mp3 in Resources */,
+				8B0AC84322B2848C005F374F /* Swang.mp3 in Resources */,
+				8BC529AB22A8A7320064004C /* Controlla.mp3 in Resources */,
+				8B0AC76222B09359005F374F /* Faith.mp3 in Resources */,
+				8B0AC79722B09C99005F374F /* King's Dead.mp3 in Resources */,
+				5342EE1322B184450044ADFD /* I Took A Pill In Ibiza.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5333608422959481002DFFE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5385CF1C22A808A500F7D77B /* CampaignsViewController.swift in Sources */,
+				8B0685C922A6D3E600E401BA /* CampaignsInformation.swift in Sources */,
+				8B0685C722A6D3C900E401BA /* SelectCampaignViewController.swift in Sources */,
+				5357525E229DC9FF00A2DDBF /* SongGuessingViewController.swift in Sources */,
+				53098F0B22983BD900A876AE /* SingleplayerViewController.swift in Sources */,
+				5333608E22959481002DFFE6 /* ViewController.swift in Sources */,
+				5391E85122A5741000F4FDB7 /* MultiplayerGenreSelectionViewController.swift in Sources */,
+				8B46963F22A35F1E007BE1A9 /* MultiplayerViewController.swift in Sources */,
+				5333608C22959481002DFFE6 /* AppDelegate.swift in Sources */,
+				53085560229EDF1800A711A5 /* songs.swift in Sources */,
+				8BC529A422A89A4E0064004C /* EasterEggViewController.swift in Sources */,
+				5391E84D22A5682300F4FDB7 /* MultiplayerInformation.swift in Sources */,
+				5391E84F22A56BDD00F4FDB7 /* MultiplayerSongGuessingViewController.swift in Sources */,
+				8BD837AA22A0B19D002AEA6C /* SingleplayerInformation.swift in Sources */,
+				8B0AC72722B05090005F374F /* LeaderboardViewController.swift in Sources */,
+				8B46964122A3648E007BE1A9 /* GenreSelectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5333608F22959481002DFFE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5333609022959481002DFFE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5333609422959482002DFFE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5333609522959482002DFFE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5333609822959482002DFFE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5333609922959482002DFFE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5333609B22959482002DFFE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8J6DQDKL6;
+				INFOPLIST_FILE = "guess-the-song/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.guess-the-song";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5333609C22959482002DFFE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8J6DQDKL6;
+				INFOPLIST_FILE = "guess-the-song/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.guess-the-song";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5333608322959481002DFFE6 /* Build configuration list for PBXProject "guess-the-song" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5333609822959482002DFFE6 /* Debug */,
+				5333609922959482002DFFE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5333609A22959482002DFFE6 /* Build configuration list for PBXNativeTarget "guess-the-song" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5333609B22959482002DFFE6 /* Debug */,
+				5333609C22959482002DFFE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5333608022959481002DFFE6 /* Project object */;
+}
